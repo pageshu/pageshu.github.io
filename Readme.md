@@ -296,7 +296,7 @@ I made a video explaining how:
 ### Copy files to Cloud VM
 Copy files to Cloud VM:
 ```shell script
-scp -r ../pageshu root@116.205.139.7:~/
+scp -r ../pageshu root@116.205.139.7:~/ # use Git Bash
 git submodule update --recursive
 ```
 
