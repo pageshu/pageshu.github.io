@@ -1,7 +1,7 @@
 # Building A Static Website With Go Hugo
 
 ## Bilibili videos
-![](readme_img/bilibili.PNG)
+![](readme_img/bilibili.png)
 
 :rocket: All code used in the videos can be found in this repository.
 
@@ -54,7 +54,7 @@ go version
 
 ###  Install Hugo (extended version)
 
-![](readme_img/hugo.jpg)
+![](readme_img/hugo.png)
 
 #### Windows
 Download [Hugo executable](https://github.com/gohugoio/hugo/releases) (extended version), then [add its path to environment variable](https://www.computerhope.com/issues/ch000549.htm).
@@ -236,8 +236,11 @@ git push origin gh-pages
 git checkout master
 ```
 
-### Github Action
+### Github Actions
 ![](readme_img/action.png)
+
+The notion of Github Actions is closely related to
+CI/CD (Continuous Integration & Continunous Deployment).
 
 ```yaml
 name: pageshu
