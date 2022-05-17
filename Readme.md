@@ -1,5 +1,24 @@
 # Building A Static Website With Go Hugo
 
+## Bilibili videos
+![](Readme_img/bilibili.PNG)
+
+:rocket: All code used in the videos can be found in this repository.
+
+- Introduction 
+  - [Video 1 - Introduction](https://www.bilibili.com/video/BV1DU4y1m7NX/)
+- Setup 
+  - [Video 2 - Setup](https://www.bilibili.com/video/BV1JZ4y187CG/)
+- Quick Start
+  - [Video 3 - Quick start](https://www.bilibili.com/video/BV1V34y1E7hy/)
+- Localhost Pages
+  - [Video 4 - Localhost Pages](https://www.bilibili.com/video/BV1Wv4y1A75F/)
+- Github Pages
+  - [Video 5 - Github Pages](https://www.bilibili.com/video/BV1V5411R7EM/)
+
+
+
+
 ## Setup 
 
 ###  Install git
