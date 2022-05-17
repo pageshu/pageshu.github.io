@@ -213,7 +213,7 @@ tmp
 ```
 
 ### Push you code to GitHub
-![](readme_img/fire.jpg)
+![](readme_img/fire.png)
 Create a github repository ```<YOUR-GITHUB-USER-NAME-OR-ORGANIZATION-NAME>.github.io```, e.g. ```pageshu.github.io```. Note that 
 ```<YOUR-GITHUB-USER-NAME-OR-ORGANIZATION-NAME>``` should be unique and has not been used by other GitHub users or orgaizations.
 
