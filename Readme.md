@@ -278,12 +278,25 @@ jobs:
 ```
 
 ## Serving static pages on Cloud Virtual Machine
+
+### Remove git submodules
+- https://www.w3docs.com/snippets/git/how-to-remove-a-git-submodule.html
+- https://stackoverflow.com/questions/55937975/can-i-uninitialize-a-git-submodule
+- https://stackoverflow.com/questions/1759587/how-to-un-submodule-a-git-submodule
+
+
+### Gitee.com, in addition to GitHub
+![](readme_img/gitee.png)
+
+
+
 ### Buy and connect to cloud VM
 
 ![](readme_img/cloud.png)
 
 I made a video explaining how:
 - https://www.bilibili.com/video/BV1nZ4y1k7Nr/
+
 
 ### Docker
 ![](readme_img/docker.png)
@@ -348,13 +361,6 @@ ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'lundechen';
 
 ## Let's Dockerize this repository with ... Dockerfile
 
-### Remove git submodules
-- https://www.w3docs.com/snippets/git/how-to-remove-a-git-submodule.html
-- https://stackoverflow.com/questions/55937975/can-i-uninitialize-a-git-submodule
-- https://stackoverflow.com/questions/1759587/how-to-un-submodule-a-git-submodule
-
-### Change from GitHub to Gitee.com
-![](readme_img/gitee.png)
 
 ### Dockerfile multistage build
 ![](readme_img/build.png)
