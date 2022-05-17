@@ -317,7 +317,7 @@ I made a video explaining the what and how of Docker:
 ```shell script
 ssh root@116.205.139.7
 cd pageshu
-hugo --minify --baseURL=http://116.205.139.7/8807
+hugo --minify --baseURL=http://116.205.139.7:8807
 cd public
 touch Dockerfile
 ```
@@ -334,7 +334,7 @@ sudo docker build -t pageshuimage .
 sudo nohup docker run -it --rm -d -p 8807:80 --name pageshucontainer pageshuimage > ~/pageshu.txt &
 ```
 
-Now, you can visit the website at: http://116.205.139.7/8807
+Now, you can visit the website at: http://116.205.139.7:8807
 
 ## Serving static pages on Alibaba OSS
 ![](readme_img/oss.png)
