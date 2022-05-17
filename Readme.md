@@ -1,7 +1,7 @@
 # Building A Static Website With Go Hugo
 
 ## Bilibili videos
-![](readme_img/bilibili.png)
+![](readme_img/bili.png)
 
 :rocket: All code used in the videos can be found in this repository.
 
@@ -31,7 +31,8 @@ Install [git for Windows](https://gitforwindows.org/).
 
 #### MacOS
 On Mavericks (10.9) or above you can do this simply by trying to 
-run git from the Terminal the very first time. 
+run git from the Terminal the 
+very first time. 
 
 ```shell script
 git --version
