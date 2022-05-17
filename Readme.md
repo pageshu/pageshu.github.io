@@ -357,7 +357,7 @@ ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'lundechen';
 ![](readme_img/gitee.png)
 
 ### Dockerfile multistage build
-![](readme_img/build.jpg)
+![](readme_img/build.png)
 
 - https://docs.docker.com/develop/develop-images/multistage-build/
 
