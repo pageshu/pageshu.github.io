@@ -3,7 +3,13 @@
 ## Bilibili videos
 ![](readme_img/bili.png)
 
-:rocket: All code used in the videos can be found in this repository.
+:rocket: All code used in the videos can be found in this repository, hosted
+on GitHub as well as on Gitee.com:
+- https://gitee.com/lundechen/static_website_with_go_hugo
+- https://github.com/pageshu/pageshu.github.io
+With the corresponding website:
+- https://pageshu.github.io/
+
 
 - Introduction 
   - [Video 1 - Introduction](https://www.bilibili.com/video/BV1DU4y1m7NX/)
@@ -13,7 +19,7 @@
   - [Video 3 - Quick start](https://www.bilibili.com/video/BV1V34y1E7hy/)
 - Localhost Pages
   - [Video 4 - Localhost Pages](https://www.bilibili.com/video/BV1Wv4y1A75F/)
-- Github Pages
+- GitHub Pages
   - [Video 5 - Github Pages](https://www.bilibili.com/video/BV1V5411R7EM/)
 
 
@@ -279,16 +285,6 @@ jobs:
 
 ## Serving static pages on Cloud Virtual Machine
 
-### Remove git submodules
-- https://www.w3docs.com/snippets/git/how-to-remove-a-git-submodule.html
-- https://stackoverflow.com/questions/55937975/can-i-uninitialize-a-git-submodule
-- https://stackoverflow.com/questions/1759587/how-to-un-submodule-a-git-submodule
-
-
-### Gitee.com, in addition to GitHub
-![](readme_img/gitee.png)
-
-
 
 ### Buy and connect to cloud VM
 
@@ -297,6 +293,17 @@ jobs:
 I made a video explaining how:
 - https://www.bilibili.com/video/BV1nZ4y1k7Nr/
 
+### Copy files to Cloud VM
+Copy files to Cloud VM:
+```shell script
+scp -r ../pageshu root@116.205.139.7:~/
+git submodule update --recursive
+```
+
+### Hugo server, from the Cloud VM
+```shell script
+sudo nohup hugo server --bind=192.168.0.61 --baseURL=http://116.205.139.7 -p 8108 >> ~/nohup.txt &
+```
 
 ### Docker
 ![](readme_img/docker.png)
@@ -306,13 +313,7 @@ I made a video explaining the what and how of Docker:
 
 ### Nginx
 ![](readme_img/nginx.png)
-Copy files to Cloud VM:
-```shell script
-cd ..
-scp -r pageshu root@116.205.139.7:~/pageshu
-```
 
-Then 
 ```shell script
 ssh root@116.205.139.7
 cd pageshu
@@ -361,6 +362,21 @@ ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'lundechen';
 
 ## Let's Dockerize this repository with ... Dockerfile
 
+### Remove git submodules
+
+```shell script
+# Ref: https://stackoverflow.com/questions/1759587/how-to-un-submodule-a-git-submodule
+git rm --cached submodule_path 
+git rm .gitmodules             
+rm -rf submodule_path/.git     
+git add submodule_path         
+git commit -m "remove submodule"
+```
+
+### Gitee.com, in addition to GitHub
+![](readme_img/gitee.png)
+
+
 
 ### Dockerfile multistage build
 ![](readme_img/build.png)
@@ -395,16 +411,6 @@ COPY --from=build /site/public /usr/share/nginx/html
 So that one can run this project with one simple Docker commandline.
 
 ## Further reading 
-
-### Hugo server
-![](readme_img/0000.png)
-
-```hugo server --bind 0.0.0.0 -D```
-
-### Git submodules 
-- https://www.atlassian.com/git/tutorials/git-submodule
-- https://gist.github.com/gitaarik/8735255
-- https://github.blog/2016-02-01-working-with-submodules/
 
 ### Hugo Dockerization 
 - https://dev.to/eduardort/hugo-and-nginx-multi-stage-build-dockerfile-3o63
