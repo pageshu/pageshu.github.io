@@ -1,7 +1,7 @@
 # Building A Static Website With Go Hugo
 
 ## Bilibili videos
-![](Readme_img/bilibili.PNG)
+![](readme_img/bilibili.PNG)
 
 :rocket: All code used in the videos can be found in this repository.
 
