@@ -382,15 +382,12 @@ Gitee repository (automatically created by Tencent Cloud).
 ![](readme_img/sale.png)
 - https://cloud.tencent.com/act/domainsales
 - https://activity.huaweicloud.com/discount_area_v5/index.html
-- https://boke112.com/
 - https://activity.huaweicloud.com/promotion/
 - https://activity.huaweicloud.com/domain1.html
-
-
+- https://wanwang.aliyun.com/domain/yumingheji
 
 ### Pointing Domain to Tencent WH
 - http:// pageshu. site or top (buy from: https://cloud.tencent.com/act/domainsales?from=dnspodqcloud)
-
 
 ### Pointing Domain to Cloud VM's Public IP Address
 
