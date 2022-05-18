@@ -355,20 +355,26 @@ sudo nohup docker run -it --rm -d -p 8818:80 --name pageshucontainer pageshuimag
 
 Now, you can visit the website at: http://116.205.139.7:8818
 
-## Serving static pages on Alibaba OSS & Tencent WH & Huawei OBS
+## Serving static pages on Alibaba OSS & Tencent COS WH & Huawei OBS
 ![](readme_img/huaweialitencent.png)
 
-### Web hosting in China
+### Web hosting service by Alibaba, Tencent and Huawei
 - https://help.aliyun.com/document_detail/31872.html
 - https://cloud.tencent.com/product/wh
 - https://support.huaweicloud.com/ugobs-obs/obs_41_0036.html
 
-### Tencent WH
-
+### Tencent COS WH
 Gitee repository (automatically created by Tencent Cloud). 
 - https://gitee.com/lundechen/my-website
 - https://my-website-9ga94nlub1fe1f7e-1300131294.ap-shanghai.app.tcloudbase.com/
 
+### Domain Registration
+![](readme_img/domain.png)
+To check if a domain name is available:
+- https://www.huaweicloud.com/product/domain.html
+- https://wanwang.aliyun.com/domain/
+- https://dnspod.cloud.tencent.com/
+- https://cloud.tencent.com/act/domainsales
 
 
 ## If ever you need a MySQL backend ... you should use Docker!
