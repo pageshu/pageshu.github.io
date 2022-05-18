@@ -12,8 +12,8 @@ building a static website, and learning to use, in the meanwhile:
 - Github actions, CI/CD (Continuous Integration, Continuous Deployment)
 
 Those skills are quite versatile and could be very useful when you create your website 
-with other static web frameworks such as Hexio, Jekyll, or any dynamic web framework, 
-and in other DevOps scenarios.
+with other static web frameworks (e.g. Hexio, Jekyll etc.), dynamic web framework, 
+as well as in many DevOps scenarios.
 
 
 ## Code hosting
@@ -34,7 +34,7 @@ With the corresponding website:
 - Setup 
   - [Video 2 - Setup](https://www.bilibili.com/video/BV1JZ4y187CG/)
 - Quick Start
-  - [Video 3 - Quick start](https://www.bilibili.com/video/BV1V34y1E7hy/)
+  - [Video 3 - Quick Start](https://www.bilibili.com/video/BV1V34y1E7hy/)
 - Localhost Pages
   - [Video 4 - Localhost Pages](https://www.bilibili.com/video/BV1Wv4y1A75F/)
 - GitHub Pages
