@@ -2,16 +2,18 @@
 
 ## Why this mini-series?
 
-The main goal is not to teach you Web technology, but to go through the main steps for 
-building a static website, and learning to use:
-- git
+The main goal of this mini-series is not to teach you Web Technology, but to 
+go through the main steps for 
+building a static website, and learning to use, in the meanwhile:
+- Git (branching, submodule, pull request etc.)
 - Docker
 - Some very useful linux commands (e.g. nohup, scp, etc.)
 - Some very useful tools (e.g. Nginx, live server, etc.)
-- Github actions, CI/CD (Continuous Integration, Continuous Deployment).
+- Github actions, CI/CD (Continuous Integration, Continuous Deployment)
 
 Those skills are quite versatile and could be very useful when you create your website 
-with other static web framework such as Hexio, Jekyll, or even dynamic web framework.
+with other static web frameworks such as Hexio, Jekyll, or any dynamic web framework, 
+and in other DevOps scenarios.
 
 
 ## Code hosting
