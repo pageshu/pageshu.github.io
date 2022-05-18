@@ -376,20 +376,27 @@ Check if a domain name is available:
 - https://dnspod.cloud.tencent.com/
 
 
-
 ![](readme_img/sale.png)
 Sales:
 - https://cloud.tencent.com/act/domainsales
+- https://activity.huaweicloud.com/discount_area_v5/index.html
+- https://boke112.com/
+- https://activity.huaweicloud.com/promotion/
+- https://activity.huaweicloud.com/domain1.html
 
 ### Binding Domain Name and Tencent WH
-- http://pageshu.site (buy from: https://cloud.tencent.com/act/domainsales?from=dnspodqcloud)
+- http:// pageshu. site or top (buy from: https://cloud.tencent.com/act/domainsales?from=dnspodqcloud)
 
 
 ### Binding Domain Name and Cloud VM Public IP Address
-- http://pageshu.xyz (buy from: Huawei Cloud)
+
+![](readme_img/point.png)
+
+- http:// pageshu. xyz or top (buy from: https://activity.huaweicloud.com/domain1.html)
 
 
 ### HTTPS
+![](readme_img/https.png)
 If you want to have HTTPS, you should proceed with 网站备案 first.
 - https://cloud.tencent.com/document/product/243
 
