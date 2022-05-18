@@ -1,6 +1,7 @@
 # Building A Static Website With Go Hugo
 
 ## Why this mini-series tutorial?
+![](readme_img/why.png)
 
 The main goal of this mini-series is not to teach you Web Technology, but to 
 go through the main steps for 
@@ -369,8 +370,8 @@ Gitee repository (automatically created by Tencent Cloud).
 - https://my-website-9ga94nlub1fe1f7e-1300131294.ap-shanghai.app.tcloudbase.com/
 
 ### Domain Registration
-![](readme_img/domain.png)
 #### Check if a domain name is available
+![](readme_img/domain.png)
 - https://www.huaweicloud.com/product/domain.html
 - https://wanwang.aliyun.com/domain/
 - https://dnspod.cloud.tencent.com/
@@ -386,11 +387,11 @@ Gitee repository (automatically created by Tencent Cloud).
 
 
 
-### Binding Domain Name and Tencent WH
+### Pointing Domain to Tencent WH
 - http:// pageshu. site or top (buy from: https://cloud.tencent.com/act/domainsales?from=dnspodqcloud)
 
 
-### Binding Domain Name and Cloud VM Public IP Address
+### Pointing Domain to Cloud VM's Public IP Address
 
 ![](readme_img/point.png)
 
@@ -423,6 +424,7 @@ ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'lundechen';
 ## Let's Dockerize this repository with ... Dockerfile
 
 ### Remove git submodules
+![](readme_img/submodule.png)
 
 ```shell script
 # Ref: https://stackoverflow.com/questions/1759587/how-to-un-submodule-a-git-submodule
