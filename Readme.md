@@ -370,19 +370,21 @@ Gitee repository (automatically created by Tencent Cloud).
 
 ### Domain Registration
 ![](readme_img/domain.png)
-Check if a domain name is available:
+#### Check if a domain name is available
 - https://www.huaweicloud.com/product/domain.html
 - https://wanwang.aliyun.com/domain/
 - https://dnspod.cloud.tencent.com/
 
 
+#### Sales
 ![](readme_img/sale.png)
-Sales:
 - https://cloud.tencent.com/act/domainsales
 - https://activity.huaweicloud.com/discount_area_v5/index.html
 - https://boke112.com/
 - https://activity.huaweicloud.com/promotion/
 - https://activity.huaweicloud.com/domain1.html
+
+
 
 ### Binding Domain Name and Tencent WH
 - http:// pageshu. site or top (buy from: https://cloud.tencent.com/act/domainsales?from=dnspodqcloud)
@@ -404,7 +406,7 @@ You should also apply for an SSL certificate.
 - https://cloud.tencent.com/document/product/400/7572
 
 
-## If ever you need a MySQL backend ... you should use Docker!
+## If ever you need a MySQL backend ... use Docker!
 ![](readme_img/mysql.png)
 
 ```shell script
