@@ -39,6 +39,8 @@ With the corresponding website:
   - [Video 4 - Localhost Pages](https://www.bilibili.com/video/BV1Wv4y1A75F/)
 - GitHub Pages
   - [Video 5 - Github Pages](https://www.bilibili.com/video/BV1V5411R7EM/)
+- Cloud VM Pages
+  - [Video 6 - Cloud VM Pages](https://www.bilibili.com/video/BV1PY4y1t746/)
 
 
 ## Setup 
