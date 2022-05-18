@@ -6,17 +6,18 @@ The main goal of this mini-series is not to teach you Web Technology, but to
 go through the main steps for 
 building a static website, and learning to use, in the meanwhile:
 - Git (branching, submodule, pull request etc.)
-- Docker
+- Docker (Dockerfile, multi-stage build, shipping to DockerHub etc.)
 - Some very useful linux commands (e.g. nohup, scp, etc.)
 - Some very useful tools (e.g. Nginx, live server, etc.)
 - Github actions, CI/CD (Continuous Integration, Continuous Deployment)
+- Various cloud platforms (Cloud VM, Alibaba OSS, Domain Registration etc.)
 
 Those skills are quite versatile and could be very useful when you create your website 
 with other static web frameworks (e.g. Hexio, Jekyll etc.), dynamic web framework, 
 as well as in many DevOps scenarios.
 
 
-## Code hosting
+## Code
 
 :rocket: All code used in the videos can be found in this repository, hosted
 on GitHub as well as on Gitee.com:
