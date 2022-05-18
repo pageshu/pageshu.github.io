@@ -1,7 +1,20 @@
 # Building A Static Website With Go Hugo
 
-## Bilibili videos
-![](readme_img/bili.png)
+## Why this mini-series?
+
+The main goal is not to teach you Web technology, but to go through the main steps for 
+building a static website, and learning to use:
+- git
+- Docker
+- Some very useful linux commands (e.g. nohup, scp, etc.)
+- Some very useful tools (e.g. Nginx, live server, etc.)
+- Github actions, CI/CD (Continuous Integration, Continuous Deployment).
+
+Those skills are quite versatile and could be very useful when you create your website 
+with other static web framework such as Hexio, Jekyll, or even dynamic web framework.
+
+
+## Code hosting
 
 :rocket: All code used in the videos can be found in this repository, hosted
 on GitHub as well as on Gitee.com:
@@ -10,6 +23,8 @@ on GitHub as well as on Gitee.com:
 With the corresponding website:
 - https://pageshu.github.io/
 
+## Bilibili videos
+![](readme_img/bili.png)
 
 - Introduction 
   - [Video 1 - Introduction](https://www.bilibili.com/video/BV1DU4y1m7NX/)
@@ -21,8 +36,6 @@ With the corresponding website:
   - [Video 4 - Localhost Pages](https://www.bilibili.com/video/BV1Wv4y1A75F/)
 - GitHub Pages
   - [Video 5 - Github Pages](https://www.bilibili.com/video/BV1V5411R7EM/)
-
-
 
 
 ## Setup 
