@@ -10,7 +10,7 @@ building a static website, and learning to use, in the meanwhile:
 - Some very useful linux commands (e.g. nohup, scp, etc.)
 - Some very useful DevOps tools (e.g. Nginx, live server, etc.)
 - Github actions, CI/CD (Continuous Integration, Continuous Deployment)
-- Various cloud platforms (cloud VM, public IP, CDN, domain registration etc.)
+- Various cloud platforms (cloud VM, public IP, CDN, domain registration, domain binding, etc.)
 
 Those skills are quite versatile and could be very useful when you create your website 
 with other static web frameworks (e.g. Hexio, Jekyll etc.), dynamic web framework, 
@@ -355,7 +355,7 @@ sudo nohup docker run -it --rm -d -p 8818:80 --name pageshucontainer pageshuimag
 
 Now, you can visit the website at: http://116.205.139.7:8818
 
-## Serving static pages on Alibaba OSS & Tencent COS WH & Huawei OBS
+## Serving static pages on Alibaba OSS & Tencent WH & Huawei OBS
 ![](readme_img/huaweialitencent.png)
 
 ### Web hosting service by Alibaba, Tencent and Huawei
@@ -363,7 +363,7 @@ Now, you can visit the website at: http://116.205.139.7:8818
 - https://cloud.tencent.com/product/wh
 - https://support.huaweicloud.com/ugobs-obs/obs_41_0036.html
 
-### Tencent COS WH
+### Tencent WH
 Gitee repository (automatically created by Tencent Cloud). 
 - https://gitee.com/lundechen/my-website
 - https://my-website-9ga94nlub1fe1f7e-1300131294.ap-shanghai.app.tcloudbase.com/
@@ -375,6 +375,21 @@ To check if a domain name is available:
 - https://wanwang.aliyun.com/domain/
 - https://dnspod.cloud.tencent.com/
 - https://cloud.tencent.com/act/domainsales
+
+
+### Binding Domain Name and Tencent WH
+- http://pageshu.club (buy from: https://cloud.tencent.com/act/domainsales?from=dnspodqcloud)
+
+
+### Binding Domain Name and Cloud VM Public IP Address
+- http://pageshu.site (buy from: https://cloud.tencent.com/act/domainsales?from=dnspodqcloud)
+
+### HTTPS
+If you want to have HTTPS, you should proceed with 网站备案 first.
+- https://cloud.tencent.com/document/product/243
+
+You should also apply for an SSL certificate.
+- https://cloud.tencent.com/document/product/400/7572
 
 
 ## If ever you need a MySQL backend ... you should use Docker!
@@ -390,7 +405,6 @@ sudo docker run --name container_phpmyadmin --link container_mysql:db -p 7880:80
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'lundechen';
 ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'lundechen';
 ```
-
 
 ## Let's Dockerize this repository with ... Dockerfile
 
