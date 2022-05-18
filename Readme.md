@@ -224,7 +224,7 @@ password each time.
 - https://www.w3docs.com/snippets/git/how-to-generate-ssh-key-for-git.html
 
 
-### Create ```.gitigore``` file
+### Create ```.gitignore``` file
 
 ![](readme_img/ignore.png)
 
