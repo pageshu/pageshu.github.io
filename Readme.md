@@ -317,7 +317,7 @@ I made a video explaining the what and how of Docker:
 ```shell script
 ssh root@116.205.139.7
 cd pageshu
-hugo --minify --baseURL=http://116.205.139.7:8818
+sudo hugo --minify --baseURL=http://116.205.139.7:8818
 cd public
 touch Dockerfile
 ```
