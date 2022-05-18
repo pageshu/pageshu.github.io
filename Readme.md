@@ -1,16 +1,16 @@
 # Building A Static Website With Go Hugo
 
-## Why this mini-series?
+## Why this mini-series tutorial?
 
 The main goal of this mini-series is not to teach you Web Technology, but to 
 go through the main steps for 
 building a static website, and learning to use, in the meanwhile:
-- Git (branching, submodule, pull request etc.)
+- Git (branching, submodule, remote, pull request etc.)
 - Docker (Dockerfile, multi-stage build, shipping to DockerHub etc.)
 - Some very useful linux commands (e.g. nohup, scp, etc.)
-- Some very useful tools (e.g. Nginx, live server, etc.)
+- Some very useful DevOps tools (e.g. Nginx, live server, etc.)
 - Github actions, CI/CD (Continuous Integration, Continuous Deployment)
-- Various cloud platforms (Cloud VM, Alibaba OSS, Domain Registration etc.)
+- Various cloud platforms (cloud VM, public IP, cloud storage, CDN, domain registration etc.)
 
 Those skills are quite versatile and could be very useful when you create your website 
 with other static web frameworks (e.g. Hexio, Jekyll etc.), dynamic web framework, 
@@ -355,10 +355,8 @@ sudo nohup docker run -it --rm -d -p 8818:80 --name pageshucontainer pageshuimag
 
 Now, you can visit the website at: http://116.205.139.7:8818
 
-## Serving static pages on Alibaba OSS
-![](readme_img/oss.png)
-- https://blog.csdn.net/ab601026460/article/details/109549232
-- https://blog.csdn.net/irving512/article/details/112073834
+## Serving static pages on Alibaba OSS & Tecent WH & Huawei OBS
+![](readme_img/hosting.png)
 - https://help.aliyun.com/document_detail/31872.html
 - https://cloud.tencent.com/product/wh
 - https://support.huaweicloud.com/ugobs-obs/obs_41_0036.html
