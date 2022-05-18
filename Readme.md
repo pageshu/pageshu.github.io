@@ -355,7 +355,7 @@ sudo nohup docker run -it --rm -d -p 8818:80 --name pageshucontainer pageshuimag
 
 Now, you can visit the website at: http://116.205.139.7:8818
 
-## Serving static pages on Alibaba OSS & Tencent WH & Huawei OBS
+## Serving static pages with your own Domain Name
 ![](readme_img/huaweialitencent.png)
 
 ### Web hosting service by Alibaba, Tencent and Huawei
@@ -370,19 +370,24 @@ Gitee repository (automatically created by Tencent Cloud).
 
 ### Domain Registration
 ![](readme_img/domain.png)
-To check if a domain name is available:
+Check if a domain name is available:
 - https://www.huaweicloud.com/product/domain.html
 - https://wanwang.aliyun.com/domain/
 - https://dnspod.cloud.tencent.com/
+
+
+
+![](readme_img/sale.png)
+Sales:
 - https://cloud.tencent.com/act/domainsales
 
-
 ### Binding Domain Name and Tencent WH
-- http://pageshu.club (buy from: https://cloud.tencent.com/act/domainsales?from=dnspodqcloud)
+- http://pageshu.site (buy from: https://cloud.tencent.com/act/domainsales?from=dnspodqcloud)
 
 
 ### Binding Domain Name and Cloud VM Public IP Address
-- http://pageshu.site (buy from: https://cloud.tencent.com/act/domainsales?from=dnspodqcloud)
+- http://pageshu.xyz (buy from: Huawei Cloud)
+
 
 ### HTTPS
 If you want to have HTTPS, you should proceed with 网站备案 first.
