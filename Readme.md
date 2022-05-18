@@ -19,6 +19,7 @@ as well as in many DevOps scenarios.
 
 
 ## Code
+![](readme_img/programming.png)
 
 :rocket: All code used in the videos can be found in this repository, hosted
 on GitHub as well as on Gitee.com:
