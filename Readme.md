@@ -4,17 +4,18 @@
 ![](readme_img/why.png)
 
 The main goal of this mini-series is not to teach you Web Technology, but to 
-go through the main steps for 
+walk through the main steps for 
 building a static website, and learning to use, in the meanwhile:
-- Git (branching, submodule, remote, hooks, pull request etc.)
+- Git (branching, submodule, remote, webhook, pull request etc.)
 - Docker (Dockerfile, multi-stage build, shipping to DockerHub etc.)
 - Some very useful linux commands (e.g. nohup, scp, etc.)
 - Some very useful DevOps tools (e.g. Nginx, live server, etc.)
 - Github actions, CI/CD (Continuous Integration, Continuous Deployment)
+- Very basic Python programming (os, subprocess, FastPAI, Uvicorn, etc.)
 - Various cloud platforms (cloud VM, public IP, CDN, domain registration, domain binding, etc.)
 
 Those skills are quite versatile and could be very useful when you create your website 
-with other static web frameworks (e.g. Hexio, Jekyll etc.), dynamic web framework, 
+with other static web generators (e.g. Hexo, Jekyll etc.), dynamic web frameworks, 
 as well as in many DevOps scenarios.
 
 
@@ -44,7 +45,7 @@ With the corresponding website:
   - [Video 5 - Github Pages](https://www.bilibili.com/video/BV1V5411R7EM/)
 - Cloud VM Pages
   - [Video 6 - Cloud VM Pages](https://www.bilibili.com/video/BV1PY4y1t746/)
-
+- Pages with Your Own Domain Name
 
 ## Setup 
 
@@ -203,6 +204,8 @@ On VS Code, click *Go Live* to open Live Server extension.
 
 *Ref: https://docs.github.com/en/pages/quickstart*
 
+*Ref: https://medium.com/@asishrs/automate-your-github-pages-deployment-using-hugo-and-actions-518b959a51f9*
+
 ### Repository in video
 In the video, I used this repository:
 - https://github.com/pageshu/pageshu.github.io
@@ -358,6 +361,26 @@ sudo nohup docker run -it --rm -d -p 8818:80 --name pageshucontainer pageshuimag
 
 Now, you can visit the website at: http://116.205.139.7:8818
 
+
+## Automatic deployment of VM Pages with GitHub Webhook
+![](readme_img/hooks.png)
+
+### Reference:
+
+If you use GitHub:
+- https://ansonvandoren.com/posts/deploy-hugo-from-github/
+- https://yuluyan.com/posts/hugo-tutorial-2/
+
+If you have your own git server:
+- https://www.jackatkinson.net/post/git_hooks/
+- https://d00vy.com/blog/automatic-hugo-deployments-with-git-hook/
+- https://gist.github.com/d00vy/8dff02f2f40b9fb37670df8b06bc4aae
+
+
+### Python based solution
+
+We use **FastAPI** and **Uvicorn** for listening to incoming requests from GitHub.
+
 ## Serving static pages with your own Domain Name
 ![](readme_img/huaweialitencent.png)
 
@@ -390,12 +413,6 @@ Now, you can visit the website at: http://116.205.139.7:8818
 
 - http:// pageshu. xyz or top (buy from: https://activity.huaweicloud.com/domain1.html)
 
-### Automatic deployment with Git Hooks
-![](readme_img/hooks.png)
-
-- https://www.digitalocean.com/community/tutorials/how-to-use-git-hooks-to-automate-development-and-deployment-tasks
-- https://olipo186.github.io/Git-Auto-Deploy/
-- https://gist.github.com/noelboss/3fe13927025b89757f8fb12e9066f2fa
 
 ## Let's Dockerize this repository with ... Dockerfile
 
@@ -446,6 +463,11 @@ COPY --from=build /site/public /usr/share/nginx/html
 
 So that one can run this project with one simple Docker commandline.
 
+
+## Conclusions
+![](readme_img/chris-pratt-wow.gif)
+
+
 ## Further reading 
 
 ### Hugo Dockerization 
@@ -464,7 +486,10 @@ You should also apply for an SSL certificate.
 HTTPS uses port 443.
 
 ### Overleaf CV
+- https://www.overleaf.com/gallery/tagged/cv
 
+### Flask vs FastAPI
+- https://testdriven.io/blog/moving-from-flask-to-fastapi
 
 
 
