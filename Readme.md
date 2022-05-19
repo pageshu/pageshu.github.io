@@ -377,6 +377,7 @@ Now, you can visit the website at: http://116.205.139.7:8818
 - https://activity.huaweicloud.com/promotion/
 - https://activity.huaweicloud.com/domain1.html
 - https://wanwang.aliyun.com/domain/yumingheji
+- https://cn.aliyun.com/activity
 
 ### Web hosting service by Alibaba, Tencent and Huawei
 - https://help.aliyun.com/document_detail/31872.html
