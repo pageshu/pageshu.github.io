@@ -457,6 +457,7 @@ If you want to have HTTPS, you should proceed with 网站备案 first.
 You should also apply for an SSL certificate.
 - https://cloud.tencent.com/document/product/400/7572
 
+HTTPS uses port 443.
 
 ### Who is peaceiris
 
