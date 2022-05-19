@@ -318,6 +318,7 @@ I made a video explaining how:
 Copy files to Cloud VM:
 ```shell script
 scp -r ../pageshu root@116.205.139.7:~/ # use Git Bash
+ssh root@116.205.139.7
 git submodule update --recursive
 ```
 
@@ -360,15 +361,6 @@ Now, you can visit the website at: http://116.205.139.7:8818
 ## Serving static pages with your own Domain Name
 ![](readme_img/huaweialitencent.png)
 
-### Web hosting service by Alibaba, Tencent and Huawei
-- https://help.aliyun.com/document_detail/31872.html
-- https://cloud.tencent.com/product/wh
-- https://support.huaweicloud.com/ugobs-obs/obs_41_0036.html
-
-### Tencent WH
-Gitee repository (automatically created by Tencent Cloud). 
-- https://gitee.com/lundechen/my-website
-- https://my-website-9ga94nlub1fe1f7e-1300131294.ap-shanghai.app.tcloudbase.com/
 
 ### Domain Registration
 #### Check if a domain name is available
@@ -386,38 +378,17 @@ Gitee repository (automatically created by Tencent Cloud).
 - https://activity.huaweicloud.com/domain1.html
 - https://wanwang.aliyun.com/domain/yumingheji
 
-### Pointing Domain to Tencent WH
-- http:// pageshu. site or top (buy from: https://cloud.tencent.com/act/domainsales?from=dnspodqcloud)
+### Web hosting service by Alibaba, Tencent and Huawei
+- https://help.aliyun.com/document_detail/31872.html
+- https://cloud.tencent.com/product/wh
+- https://support.huaweicloud.com/ugobs-obs/obs_41_0036.html
 
 ### Pointing Domain to Cloud VM's Public IP Address
-
+ 
 ![](readme_img/point.png)
 
 - http:// pageshu. xyz or top (buy from: https://activity.huaweicloud.com/domain1.html)
 
-
-### HTTPS
-![](readme_img/https.png)
-If you want to have HTTPS, you should proceed with 网站备案 first.
-- https://cloud.tencent.com/document/product/243
-
-You should also apply for an SSL certificate.
-- https://cloud.tencent.com/document/product/400/7572
-
-
-## If ever you need a MySQL backend ... use Docker!
-![](readme_img/mysql.png)
-
-```shell script
-sudo docker network create mysql-network
-sudo docker run --name=container_mysql -p7106:3306 -e MYSQL_ROOT_HOST='%' -e MYSQL_ROOT_PASSWORD=lundechen -d --net mysql-network mysql/mysql-server 
-sudo docker run --name container_phpmyadmin --link container_mysql:db -p 7880:80 -d  -e PMA_HOST=container_mysql --net mysql-network phpmyadmin/phpmyadmin
-```
-
-```mysql
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'lundechen';
-ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'lundechen';
-```
 
 ## Let's Dockerize this repository with ... Dockerfile
 
@@ -476,6 +447,15 @@ So that one can run this project with one simple Docker commandline.
 - https://dev.to/eduardort/hugo-and-nginx-multi-stage-build-dockerfile-3o63
 - https://www.bravoslab.com/post/static-website-wirh-hugo.io-and-ngnix/
 - https://github.com/jtreminio/hugoBasicExample
+
+### HTTPS
+![](readme_img/https.png)
+If you want to have HTTPS, you should proceed with 网站备案 first.
+- https://cloud.tencent.com/document/product/243
+
+You should also apply for an SSL certificate.
+- https://cloud.tencent.com/document/product/400/7572
+
 
 ### Who is peaceiris
 
