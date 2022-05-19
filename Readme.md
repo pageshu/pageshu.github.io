@@ -6,7 +6,7 @@
 The main goal of this mini-series is not to teach you Web Technology, but to 
 go through the main steps for 
 building a static website, and learning to use, in the meanwhile:
-- Git (branching, submodule, remote, pull request etc.)
+- Git (branching, submodule, remote, hooks, pull request etc.)
 - Docker (Dockerfile, multi-stage build, shipping to DockerHub etc.)
 - Some very useful linux commands (e.g. nohup, scp, etc.)
 - Some very useful DevOps tools (e.g. Nginx, live server, etc.)
@@ -390,6 +390,12 @@ Now, you can visit the website at: http://116.205.139.7:8818
 
 - http:// pageshu. xyz or top (buy from: https://activity.huaweicloud.com/domain1.html)
 
+### Automatic deployment with Git Hooks
+![](readme_img/hooks.png)
+
+- https://www.digitalocean.com/community/tutorials/how-to-use-git-hooks-to-automate-development-and-deployment-tasks
+- https://olipo186.github.io/Git-Auto-Deploy/
+- https://gist.github.com/noelboss/3fe13927025b89757f8fb12e9066f2fa
 
 ## Let's Dockerize this repository with ... Dockerfile
 
@@ -407,8 +413,6 @@ git commit -m "remove submodule"
 
 ### Gitee.com, in addition to GitHub
 ![](readme_img/gitee.png)
-
-
 
 ### Dockerfile multistage build
 ![](readme_img/build.png)
@@ -458,8 +462,5 @@ You should also apply for an SSL certificate.
 - https://cloud.tencent.com/document/product/400/7572
 
 HTTPS uses port 443.
-
-### Who is peaceiris
-
 
 
