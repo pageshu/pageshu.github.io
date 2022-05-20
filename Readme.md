@@ -369,7 +369,9 @@ Now, you can visit the website at: http://116.205.139.7:8818
 ## Automatic deployment of VM Pages with GitHub Webhook
 ![](readme_img/hooks.png)
 
-One solution would be to use ```crontab``` for periodic pull from GitHub.
+One solution would be to use ```crontab``` for periodic pull from GitHub,
+with references [ref1](https://dpursanov.medium.com/automatic-deploy-using-git-72ddbc1785cf)
+and [ref2](https://stackoverflow.com/questions/4414140/git-auto-pull-using-cronjob).
 A better solution is to use GitHub WebHook.
 
 ### Reference:
@@ -385,6 +387,9 @@ If you have your own git server:
 
 
 ### Python based solution
+
+In this tutorial, instead of using an [Ubuntu software named "webhook"](https://github.com/adnanh/webhook),
+we are going to develop, by ourselves, a Python based solution.
 
 We use **FastAPI** and **Uvicorn** for listening to incoming requests from GitHub.
 
@@ -498,15 +503,4 @@ HTTPS uses port 443.
 ### Flask vs FastAPI
 - https://testdriven.io/blog/moving-from-flask-to-fastapi
 - https://python.plainenglish.io/revisiting-flask-vs-fastapi-in-2022-650fb76baf08
-
-### Webhook software, developed in Go
-- https://github.com/adnanh/webhook
-
-### Automatic pull with crontab
-- https://dpursanov.medium.com/automatic-deploy-using-git-72ddbc1785cf
-- https://stackoverflow.com/questions/4414140/git-auto-pull-using-cronjob
-- https://www.collegestash.com/automate-releases-using-git-crontab/
-- https://ealizadeh.com/blog/automate-workflow-github-cron
-
-
 
