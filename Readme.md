@@ -122,6 +122,10 @@ Other free Hugo themes:
 - https://jamstackthemes.dev/ssg/hugo/
 - https://cloudcannon.com/blog/top-10-hugo-themes-for-2022/
 
+A very popular personal site theme among academic researchers:
+- https://github.com/wowchemy/starter-hugo-academic
+- https://academic-demo.netlify.app/
+
 This tutorial uses the beautiful [Ananke theme](https://themes.gohugo.io/themes/gohugo-theme-ananke/).
 
 First, download the theme from GitHub and add it to your site’s themes directory:
