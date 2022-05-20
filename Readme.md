@@ -18,8 +18,7 @@ Those skills are quite versatile and could be very useful when you create your w
 with other static web generators (e.g. Hexo, Jekyll etc.), dynamic web frameworks, 
 as well as in many DevOps scenarios.
 
-***Notice: If you just want to build your own personal website, watching videos 1-5 would 
-be already sufficient. ***
+***Notice: If you just want to build your own personal website, watching videos 1-5 would be already sufficient.***
 
 ## Code
 ![](readme_img/programming.png)
@@ -36,8 +35,7 @@ With the corresponding website:
 ![](readme_img/bili.png)
 
 
-***Notice: If you just want to build your own personal website, watching videos 1-5 would 
-be already sufficient. ***
+***Notice: If you just want to build your own personal website, watching videos 1-5 would be already sufficient.***
 
 - Introduction 
   - [Video 1 - Introduction](https://www.bilibili.com/video/BV1DU4y1m7NX/)
