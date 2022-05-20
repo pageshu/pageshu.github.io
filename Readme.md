@@ -125,6 +125,7 @@ Other free Hugo themes:
 A very popular personal site theme among academic researchers:
 - https://github.com/wowchemy/starter-hugo-academic
 - https://academic-demo.netlify.app/
+- https://wowchemy.com/
 
 This tutorial uses the beautiful [Ananke theme](https://themes.gohugo.io/themes/gohugo-theme-ananke/).
 
