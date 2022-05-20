@@ -206,6 +206,8 @@ On VS Code, click *Go Live* to open Live Server extension.
 
 *Ref: https://medium.com/@asishrs/automate-your-github-pages-deployment-using-hugo-and-actions-518b959a51f9*
 
+*Ref: https://www.morling.dev/blog/automatically-deploying-hugo-website-via-github-actions/*
+
 ### Repository in video
 In the video, I used this repository:
 - https://github.com/pageshu/pageshu.github.io
@@ -362,8 +364,13 @@ sudo nohup docker run -it --rm -d -p 8818:80 --name pageshucontainer pageshuimag
 Now, you can visit the website at: http://116.205.139.7:8818
 
 
+
+
 ## Automatic deployment of VM Pages with GitHub Webhook
 ![](readme_img/hooks.png)
+
+One solution would be to use ```crontab``` for periodic pull from GitHub.
+A better solution is to use GitHub WebHook.
 
 ### Reference:
 
@@ -490,6 +497,16 @@ HTTPS uses port 443.
 
 ### Flask vs FastAPI
 - https://testdriven.io/blog/moving-from-flask-to-fastapi
+- https://python.plainenglish.io/revisiting-flask-vs-fastapi-in-2022-650fb76baf08
+
+### Webhook software, developed in Go
+- https://github.com/adnanh/webhook
+
+### Automatic pull with crontab
+- https://dpursanov.medium.com/automatic-deploy-using-git-72ddbc1785cf
+- https://stackoverflow.com/questions/4414140/git-auto-pull-using-cronjob
+- https://www.collegestash.com/automate-releases-using-git-crontab/
+- https://ealizadeh.com/blog/automate-workflow-github-cron
 
 
 
