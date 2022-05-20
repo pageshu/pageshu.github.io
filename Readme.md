@@ -33,6 +33,10 @@ With the corresponding website:
 ## Bilibili videos
 ![](readme_img/bili.png)
 
+
+***Notice: If you just want to build your own personal website, watching Video 1-5 would 
+be already sufficient. ***
+
 - Introduction 
   - [Video 1 - Introduction](https://www.bilibili.com/video/BV1DU4y1m7NX/)
 - Setup 
