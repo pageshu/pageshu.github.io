@@ -245,6 +245,7 @@ resources/_gen/
 node_modules
 dist
 tmp
+*.lock
 ```
 
 ### Push you code to GitHub

@@ -6,3 +6,4 @@ resources/_gen/
 node_modules
 dist
 tmp
+*.lock
