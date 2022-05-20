@@ -204,13 +204,12 @@ On VS Code, click *Go Live* to open Live Server extension.
 
 ![](readme_img/githubpages.png)
 
-*Ref: https://gohugo.io/hosting-and-deployment/hosting-on-github/*
-
-*Ref: https://docs.github.com/en/pages/quickstart*
-
-*Ref: https://medium.com/@asishrs/automate-your-github-pages-deployment-using-hugo-and-actions-518b959a51f9*
-
-*Ref: https://www.morling.dev/blog/automatically-deploying-hugo-website-via-github-actions/*
+### Reference
+You could refer to those links to learn more about this topic.
+- *https://gohugo.io/hosting-and-deployment/hosting-on-github/*
+- *https://docs.github.com/en/pages/quickstart*
+- *https://medium.com/@asishrs/automate-your-github-pages-deployment-using-hugo-and-actions-518b959a51f9*
+- *https://www.morling.dev/blog/automatically-deploying-hugo-website-via-github-actions/*
 
 ### Repository in video
 In the video, I used this repository:
@@ -481,7 +480,7 @@ So that one can run this project with one simple Docker commandline.
 
 
 ## Conclusions
-![](readme_img/chris-pratt-wow.gif)
+![](readme_img/conclusion.png)
 
 
 ## Further reading 
