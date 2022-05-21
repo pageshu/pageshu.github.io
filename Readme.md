@@ -124,10 +124,8 @@ Other free Hugo themes:
 
 A very popular personal site theme among academic researchers:
 - https://github.com/wowchemy/starter-hugo-academic
-- https://academic-demo.netlify.app/
-- https://wowchemy.com/
 
-If you are willing to pay ~360RMB for buying a theme:
+If you are willing to pay ~360RMB for buying a high-quality theme:
 - https://gethugothemes.com/
 
 This tutorial uses the beautiful [Ananke theme](https://themes.gohugo.io/themes/gohugo-theme-ananke/).
@@ -381,29 +379,20 @@ Now, you can visit the website at: http://116.205.139.7:8818
 ## Automatic deployment of VM Pages with GitHub Webhook
 ![](readme_img/hooks.png)
 
-One solution would be to use ```crontab``` for periodic pull from GitHub,
-with references [ref1](https://dpursanov.medium.com/automatic-deploy-using-git-72ddbc1785cf)
-and [ref2](https://stackoverflow.com/questions/4414140/git-auto-pull-using-cronjob).
-A better solution is to use GitHub WebHook.
+One naive and simple solution would be to use ```crontab``` for periodic pull from GitHub ([ref1](https://dpursanov.medium.com/automatic-deploy-using-git-72ddbc1785cf), 
+[ref2](https://stackoverflow.com/questions/4414140/git-auto-pull-using-cronjob).
 
-### Reference:
+A better solution is to use GitHub WebHook:
 
-If you use GitHub:
 - https://ansonvandoren.com/posts/deploy-hugo-from-github/
 - https://yuluyan.com/posts/hugo-tutorial-2/
-
-If you have your own git server:
-- https://www.jackatkinson.net/post/git_hooks/
-- https://d00vy.com/blog/automatic-hugo-deployments-with-git-hook/
-- https://gist.github.com/d00vy/8dff02f2f40b9fb37670df8b06bc4aae
-
 
 ### Python based solution
 
 In this tutorial, instead of using an [Ubuntu software named "webhook"](https://github.com/adnanh/webhook),
 we are going to develop, by ourselves, a Python based solution.
 
-We use **FastAPI** and **Uvicorn** for listening to incoming requests from GitHub.
+We use [**FastAPI**](https://testdriven.io/blog/moving-from-flask-to-fastapi) and **Uvicorn** for listening to incoming requests from GitHub.
 
 ## Serving static pages with your own Domain Name
 ![](readme_img/huaweialitencent.png)
@@ -510,9 +499,5 @@ You should also apply for an SSL certificate.
 HTTPS uses port 443.
 
 ### Overleaf CV
+If you want to generate very beautiful CV pdf:
 - https://www.overleaf.com/gallery/tagged/cv
-
-### Flask vs FastAPI
-- https://testdriven.io/blog/moving-from-flask-to-fastapi
-- https://python.plainenglish.io/revisiting-flask-vs-fastapi-in-2022-650fb76baf08
-
