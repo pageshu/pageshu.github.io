@@ -5,14 +5,13 @@
 
 The main goal of this mini-series is not to teach you Web Technology, but to 
 walk through the main steps for 
-building a static website, and learning to use, in the meanwhile:
+building a static website, and to learn to use, in the meanwhile:
 - Git (branching, submodule, remote, webhook, pull request etc.)
 - Docker (Dockerfile, multi-stage build, shipping to DockerHub etc.)
 - Some very useful linux commands (e.g. nohup, scp, etc.)
-- Some very useful DevOps tools (e.g. Nginx, live server, etc.)
-- Github actions, CI/CD (Continuous Integration, Continuous Deployment)
-- Very basic Python programming (os, subprocess, FastPAI, Uvicorn, etc.)
-- Various cloud platforms (cloud VM, public IP, CDN, domain registration, domain binding, etc.)
+- Some very useful DevOps tools (e.g. Nginx, live server, Github actions, CI/CD, etc.)
+- Some very useful Python programming frameworks (os, subprocess, FastPAI, Uvicorn, etc.)
+- Various cloud platforms (cloud VM, public IP, domain registration, domain binding, etc.)
 
 Those skills are quite versatile and could be very useful when you create your website 
 with other static web generators (e.g. Hexo, Jekyll etc.), dynamic web frameworks, 
@@ -477,7 +476,7 @@ COPY --from=build /site/public /usr/share/nginx/html
 So that one can run this project with one simple Docker commandline.
 
 
-## Conclusions
+## Conclusion
 ![](readme_img/conclusion.png)
 
 
