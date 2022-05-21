@@ -127,6 +127,9 @@ A very popular personal site theme among academic researchers:
 - https://academic-demo.netlify.app/
 - https://wowchemy.com/
 
+If you are willing to pay ~360RMB for buying a theme:
+- https://gethugothemes.com/
+
 This tutorial uses the beautiful [Ananke theme](https://themes.gohugo.io/themes/gohugo-theme-ananke/).
 
 First, download the theme from GitHub and add it to your site’s themes directory:
