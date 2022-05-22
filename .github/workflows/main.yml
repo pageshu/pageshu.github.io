@@ -29,3 +29,11 @@ jobs:
         publish_branch: gh-pages
         publish_dir: ./public
         allow_empty_commit: true
+
+    - name: Deploy-Tencent
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_branch: tencent
+          publish_dir: ./public
+          allow_empty_commit: true
