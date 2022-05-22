@@ -390,16 +390,6 @@ Now, you can visit the website at: http://116.205.139.7:8818
 
 
 
-## Automatic deployment of VM Pages with GitHub Webhook
-![](readme_img/hooks.png)
-
-One naive and simple solution would be to use ```crontab``` for periodic pull from GitHub ([ref1](https://dpursanov.medium.com/automatic-deploy-using-git-72ddbc1785cf), 
-[ref2](https://stackoverflow.com/questions/4414140/git-auto-pull-using-cronjob).
-
-A better solution is to use GitHub WebHook:
-
-- https://ansonvandoren.com/posts/deploy-hugo-from-github/
-- https://yuluyan.com/posts/hugo-tutorial-2/
 
 ### Python based solution
 
@@ -444,6 +434,18 @@ How:
 
 - http:// pageshu. xyz or top (buy from: https://activity.huaweicloud.com/domain1.html)
 
+
+
+### Automatic deployment of WH Pages and VM Pages with GitHub Webhook
+![](readme_img/hooks.png)
+
+One naive and simple solution would be to use ```crontab``` for periodic pull from GitHub ([ref1](https://dpursanov.medium.com/automatic-deploy-using-git-72ddbc1785cf), 
+[ref2](https://stackoverflow.com/questions/4414140/git-auto-pull-using-cronjob).
+
+A better solution is to use GitHub WebHook:
+
+- https://ansonvandoren.com/posts/deploy-hugo-from-github/
+- https://yuluyan.com/posts/hugo-tutorial-2/
 
 ## Let's Dockerize this repository with ... Dockerfile
 
@@ -506,7 +508,7 @@ So that one can run this project with one simple Docker commandline.
 - https://www.bravoslab.com/post/static-website-wirh-hugo.io-and-ngnix/
 - https://github.com/jtreminio/hugoBasicExample
 
-### HTTPS
+### Cloud VM Pages with HTTPS
 ![](readme_img/https.png)
 If you want to have HTTPS, you should proceed with 网站备案 first.
 - https://cloud.tencent.com/document/product/243
@@ -519,3 +521,5 @@ HTTPS uses port 443.
 ### Overleaf CV
 If you want to generate very beautiful CV pdf:
 - https://www.overleaf.com/gallery/tagged/cv
+
+
