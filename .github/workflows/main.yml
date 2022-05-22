@@ -30,7 +30,23 @@ jobs:
         publish_dir: ./public
         allow_empty_commit: true
 
-    - name: Deploy-Tencent
+  build-deploy-tencent:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@master
+      with:
+        submodules: true
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.86.0'
+        extended: true
+
+    - name: Build
+      run: hugo --minify --baseURL=https://pageshu.github.io
+
+    - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
