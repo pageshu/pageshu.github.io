@@ -284,6 +284,7 @@ git checkout master
 The notion of Github Actions is closely related to
 CI/CD (Continuous Integration & Continunous Deployment).
 
+
 ```yaml
 name: pageshu
 
@@ -317,6 +318,10 @@ jobs:
         publish_dir: ./public
         allow_empty_commit: true
 ```
+
+To learn more about GitHub Actions:
+- https://yonatankra.com/7-github-actions-tricks-i-wish-i-knew-before-i-started/
+
 
 
 ## Git collaboration via GitHub pull request
