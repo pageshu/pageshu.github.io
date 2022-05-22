@@ -416,12 +416,16 @@ We use [**FastAPI**](https://testdriven.io/blog/moving-from-flask-to-fastapi) an
 - https://wanwang.aliyun.com/domain/yumingheji
 - https://cn.aliyun.com/activity
 
-### Web hosting service by Alibaba, Tencent and Huawei
+### Method 1: Web hosting service by Alibaba, Tencent and Huawei
 - https://help.aliyun.com/document_detail/31872.html
 - https://cloud.tencent.com/product/wh
 - https://support.huaweicloud.com/ugobs-obs/obs_41_0036.html
 
-### Pointing Domain to Cloud VM's Public IP Address
+How:
+- http:// pageshu. xyz or top (buy from: https://cloud.tencent.com/act/domainsales)
+
+
+###  Method 2: Pointing Domain to Cloud VM's Public IP Address
  
 ![](readme_img/point.png)
 
