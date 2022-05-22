@@ -325,8 +325,10 @@ jobs:
 
 ![](readme_img/cloud.png)
 
-I made a video explaining how:
+I have made a video explaining how :point_down: :
 - https://www.bilibili.com/video/BV1nZ4y1k7Nr/
+
+:point_up: 没有使用过云虚拟机的同学，先看下这个视频学习一下。
 
 ### Copy files to Cloud VM
 Copy files to Cloud VM:
