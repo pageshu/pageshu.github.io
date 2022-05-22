@@ -31,7 +31,8 @@ jobs:
         allow_empty_commit: true
 
   build-deploy-tencent:
-    runs-on: ubuntu-18.04
+    needs: build-deploy
+    runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@master
       with:
@@ -47,9 +48,11 @@ jobs:
       run: hugo --minify --baseURL=https://pageshu.github.io
 
     - name: Deploy
-        run: peaceiris/actions-gh-pages@v3
-        with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          publish_branch: tencent
-          publish_dir: ./public
-          allow_empty_commit: true
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        publish_branch: gh-pages
+        publish_dir: ./public
+        allow_empty_commit: true
+
+
