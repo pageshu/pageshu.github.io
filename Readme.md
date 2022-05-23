@@ -726,6 +726,7 @@ If for some reason your submodule doesn't work, here is how:
 git rm --cached themes/ananke
 git rm .gitmodules             
 rm -rf themes/ananke/.git 
+rm -rf themes/ananke
 touch .gitmodules
 git submodule add --force git@github.com:theNewDynamic/gohugo-theme-ananke.git themes/ananke
 git add .
