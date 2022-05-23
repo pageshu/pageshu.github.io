@@ -323,20 +323,21 @@ To learn more about GitHub Actions:
 - https://yonatankra.com/7-github-actions-tricks-i-wish-i-knew-before-i-started/
 
 
+## Code collaboration via GitHub Pull Request
 
-## Git collaboration via GitHub pull request
 
-![](readme_img/pullrequest.png)
+![](readme_img/pullrequestapprove.gif)
 
-### Tutorial by Ms. Sun Hudie
+
+### A very good tutorial by Ms. Sun Hudie
 
 :rocket: :rocket: :rocket:  A very good tutorial :point_right: :[分支创建+pr-by孙胡蝶.docx](分支创建+pr-by孙胡蝶.docx).
 
-### Another very good tutorial for git operations
+### Another very good tutorial for git commands
 
 - https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1
 
-### Online Git Branch Visualization
+### Online Git Branch Visualization & Playground
 - https://learngitbranching.js.org/
 - https://velog.io/@seob/TIL-visualized-git-commands
 
@@ -347,7 +348,14 @@ Install *Git History* extension on your VS Code.
 Other alternatives: *Git Graph* extension.
 
 
-### Within One Team
+### Within One Team (i.e. you have write right to the repo)
+
+
+#### Simple Mode
+
+New Branch -> Modification -> Push -> Pull Request
+
+#### A better but more complicated approach 
 
 ```shell script
 # Checkout the master branch - you want your new branch to come from master
@@ -375,16 +383,25 @@ git push origin newfeature
 
 #### Merge ```newfeature``` branch
 
-![](readme_img/pullrequestapprove.gif)
 
-### Cross Team
+### Cross Team (i.e. you don't have write right to the repo)
 Reference:
 - *https://gist.github.com/Chaser324/ce0505fbed06b947d962*
 
+Whether you're trying to give back to the open source community 
+or collaborating on your own projects, 
+knowing how to properly fork and generate pull requests is essential. 
+
+This section depicts the fairly "standard" procedure for creating a fork, 
+doing your work, issuing a pull request, 
+and merging that pull request back into the original project.
 
 #### Simple Mode
 
 Fork -> Modification -> Push -> Pull Request
+
+
+#### A better but more complicated approach 
 
 #### Creating a Fork
 
@@ -459,6 +476,13 @@ this section is written from the perspective of the original
 repository owner who is handling an incoming pull request.
 Thus, where the "forker" was referring to the original repository as ```upstream```, 
 we're now looking at it as the owner of that original repository and the standard ```origin``` remote.
+
+
+#### Automatically Merging a Pull Request
+
+In cases where the merge would be a simple fast-forward, 
+you can automatically do the merge by just clicking the 
+button on the pull request page on GitHub.
 
 #### Manually Merging a Pull Request
 
