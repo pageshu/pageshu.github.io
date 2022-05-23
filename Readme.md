@@ -330,16 +330,21 @@ To learn more about GitHub Actions:
 
 ### Tutorial by Ms. Sun Hudie
 
-
 :rocket: :rocket: :rocket:  A very good tutorial :point_right: :[分支创建+pr-by孙胡蝶.docx](分支创建+pr-by孙胡蝶.docx).
 
+### Another very good tutorial for git operations
 
-### Git branch visualization
+- https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1
+
+### Online Git Branch Visualization
+- https://learngitbranching.js.org/
+- https://velog.io/@seob/TIL-visualized-git-commands
+
+### VS Code extension
 
 Install *Git History* extension on your VS Code.
 
 Other alternatives: *Git Graph* extension.
-
 
 
 ### Within One Team
