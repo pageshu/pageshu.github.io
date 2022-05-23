@@ -46,8 +46,8 @@ With the corresponding website:
   - [Video 4 - Localhost Pages](https://www.bilibili.com/video/BV1Wv4y1A75F/)
 - GitHub Pages
   - [Video 5 - Github Pages](https://www.bilibili.com/video/BV1V5411R7EM/)
-- Cloud VM Pages
-  - [Video 6 - Cloud VM Pages](https://www.bilibili.com/video/BV1PY4y1t746/)
+- Cloud VM Pages [optional]
+  - [Video 6 - Cloud VM Pages [optional]](https://www.bilibili.com/video/BV1PY4y1t746/)
 - Pages with Your Own Domain Name
 
 ## Setup 
@@ -645,7 +645,7 @@ Github Webhook -> VM pull -> VM ```cloudbase ``` CLI update folder. https://clou
 ### VM Pages
 
 
-## Let's Dockerize this repository with ... Dockerfile
+## Let's Dockerize this repository with ... Dockerfile  [optional]
 
 ### Remove git submodules
 ![](readme_img/submodule.png)
@@ -688,7 +688,7 @@ WORKDIR /usr/share/nginx/html/
 COPY --from=build /site/public /usr/share/nginx/html
 ```
 
-## Let's ship the Dockerfile to ... DockerHub  
+## Let's ship the Dockerfile to ... DockerHub   [optional]
 
 ![](readme_img/dockerhub.png)
 
