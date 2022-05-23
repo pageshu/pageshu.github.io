@@ -10,8 +10,8 @@ building a static website, and to learn to use, in the meanwhile:
 - Docker (Dockerfile, multi-stage build, shipping to DockerHub etc.)
 - Some very useful linux commands (e.g. nohup, scp, etc.)
 - Some very useful DevOps tools (e.g. Nginx, live server, Github actions, CI/CD, etc.)
-- Some very useful Python programming frameworks (os, subprocess, FastPAI, Uvicorn, etc.)
-- Various cloud platforms (cloud VM, public IP, domain registration, domain binding, etc.)
+- [optional] Some very useful Python programming frameworks (os, subprocess, FastPAI, Uvicorn, etc.)
+- [optional] Various cloud platforms (cloud VM, public IP, domain registration, domain binding, etc.)
 
 Those skills are quite versatile and could be very useful when you create your website 
 with other static web generators (e.g. Hexo, Jekyll etc.), dynamic web frameworks, 
@@ -525,7 +525,7 @@ git branch -d newfeature
 
 
 
-## Serving static pages on Cloud Virtual Machine
+## Serving static pages on Cloud Virtual Machine [optional]
 
 
 ### Buy and connect to cloud VM
@@ -581,7 +581,7 @@ sudo nohup docker run -it --rm -d -p 8818:80 --name pageshucontainer pageshuimag
 
 Now, you can visit the website at: http://116.205.139.7:8818
 
-## Serving static pages with your own Domain Name
+## Serving static pages with your own Domain Name [optional]
 ![](readme_img/huaweialitencent.png)
 
 
@@ -619,7 +619,7 @@ How:
 
 
 
-## Automatic deployment of WH Pages and with GitHub Webhook
+## Automatic deployment of WH Pages and with GitHub Webhook [optional]
 ![](readme_img/hooks.png)VM Pages 
 
 One naive and simple solution would be to use ```crontab``` for periodic pull from GitHub ([ref1](https://dpursanov.medium.com/automatic-deploy-using-git-72ddbc1785cf), 
@@ -699,7 +699,7 @@ So that one can run this project with one simple Docker commandline.
 ![](readme_img/conclusion.png)
 
 
-## Further reading 
+## Further reading [optional]
 
 ### Hugo Dockerization 
 - https://dev.to/eduardort/hugo-and-nginx-multi-stage-build-dockerfile-3o63
