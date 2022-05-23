@@ -639,7 +639,7 @@ We use [**FastAPI**](https://testdriven.io/blog/moving-from-flask-to-fastapi) an
 
 
 ### WH Pages
-Github Tencent Branch -> VM pull -> VM ```cloudbase ``` push. https://cloud.tencent.com/document/product/876/47142
+Github Webhook -> VM pull -> VM ```cloudbase ``` CLI update folder. https://cloud.tencent.com/document/product/876/47142
 
 
 ### VM Pages
