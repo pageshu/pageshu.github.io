@@ -331,7 +331,7 @@ To learn more about GitHub Actions:
 ### Tutorial by Ms. Sun Hudie
 
 
-:rocket: :rocket: :rocket:  A very good tutorial :point-right: :[分支创建+pr-by孙胡蝶.docx](分支创建+pr-by孙胡蝶.docx).
+:rocket: :rocket: :rocket:  A very good tutorial :point_right: :[分支创建+pr-by孙胡蝶.docx](分支创建+pr-by孙胡蝶.docx).
 
 
 ### Git branch visualization
@@ -349,6 +349,10 @@ Other alternatives: *Git Graph* extension.
 Reference:
 - *https://gist.github.com/Chaser324/ce0505fbed06b947d962*
 
+
+#### Simple Mode
+
+Fork -> Modification -> Push -> Pull Request
 
 #### Creating a Fork
 
@@ -388,16 +392,14 @@ it as simple as possible for the original repo's maintainer
 to test, accept, and merge your work.
 
 ```shell script
-
 # Add 'upstream' repo to list of remotes
 git remote add upstream https://github.com/UPSTREAM-USER/ORIGINAL-PROJECT.git
 
 # Verify the new remote named 'upstream'
 git remote -v
 
-# Fetch upstream master and merge with your repo's master branch
+# Fetch upstream master and merge with your repo's master branch (pull = fetch + merge)
 git checkout master
-git fetch upstream/master
 git pull upstream master
 
 # If there were any new commits, rebase your development branch
@@ -446,7 +448,6 @@ Now that you're done with the development branch, you're free to delete it.
 ```shell script
 git branch -d newfeature
 ```
-
 
 ### Git merge, and merge conflict resolving
 
