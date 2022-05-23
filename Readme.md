@@ -352,6 +352,8 @@ git checkout master
 # Switch to your new branch
 git checkout  -b newfeature
 
+git add .
+git commit -m "new feature"
 
 # Pull first, then rebase
 git checkout master
@@ -410,6 +412,8 @@ Now, go to town hacking away and making whatever changes you want to.
 
 #### Cleaning Up Your Work
 
+![](readme_img/git_rebase.gif)
+
 Prior to submitting your pull request, 
 you might want to do a few things to clean up your branch and make 
 it as simple as possible for the original repo's maintainer 
@@ -421,6 +425,9 @@ git remote add upstream https://github.com/UPSTREAM-USER/ORIGINAL-PROJECT.git
 
 # Verify the new remote named 'upstream'
 git remote -v
+
+git add .
+git commit -m "new feature"
 
 # Fetch upstream master and merge with your repo's master branch (pull = fetch + merge)
 git checkout master
