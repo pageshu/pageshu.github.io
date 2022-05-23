@@ -342,10 +342,34 @@ Other alternatives: *Git Graph* extension.
 
 
 
-### Create new branch as a team collaborator, then submit pull request
+### Within One Team
+
+```shell script
+# Checkout the master branch - you want your new branch to come from master
+git checkout master
+
+# Create a new branch named newfeature (give your branch its own simple informative name)
+# Switch to your new branch
+git checkout  -b newfeature
 
 
-### Fork, then pull request
+# Pull first, then rebase
+git checkout master
+git pull origin master
+git checkout newfeature
+git rebase master
+
+# push 
+git push origin newfeature
+```
+
+#### Submit Pull Request
+
+
+#### Merge ```newfeature``` branch
+
+
+### Cross Team
 Reference:
 - *https://gist.github.com/Chaser324/ce0505fbed06b947d962*
 
