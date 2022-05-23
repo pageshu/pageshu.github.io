@@ -352,6 +352,11 @@ git checkout master
 # Switch to your new branch
 git checkout  -b newfeature
 
+# Commit
+git add .
+git commit -m "modified some code on newfeature branch"
+
+
 
 # Pull first, then rebase
 git checkout master
