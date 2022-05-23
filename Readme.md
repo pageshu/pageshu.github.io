@@ -326,8 +326,25 @@ To learn more about GitHub Actions:
 
 ## Git collaboration via GitHub pull request
 
-A very good tutorial :point-right: :[分支创建+pr-by孙胡蝶.docx](分支创建+pr-by孙胡蝶.docx).
+![](readme_img/pullrequest.png)
 
+### Tutorial by Ms. Sun Hudie
+
+
+:rocket: :rocket: :rocket:  A very good tutorial :point-right: :[分支创建+pr-by孙胡蝶.docx](分支创建+pr-by孙胡蝶.docx).
+
+
+### Git branch visualization
+
+Install *Git History* extension on your VS Code.
+
+Other alternatives: *Git Graph* extension.
+
+### Fork, then pull request
+
+### Create new branch, then pull request
+
+### Git merge, and merge conflict resolving
 
 
 
