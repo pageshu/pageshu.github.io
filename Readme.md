@@ -351,7 +351,7 @@ Install *Git History* extension on your VS Code.
 Other alternatives: *Git Graph* extension.
 
 
-### Within One Team (i.e. you have write right to the repo)
+### Within One Team (i.e. you have write access to the repo)
 
 
 #### Simple Mode
