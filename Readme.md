@@ -236,6 +236,9 @@ password each time.
 
 - https://www.w3docs.com/snippets/git/how-to-generate-ssh-key-for-git.html
 
+```shell script
+ssh-keygen
+```
 
 ### Create ```.gitignore``` file
 
@@ -282,7 +285,7 @@ git checkout master
 ![](readme_img/action.png)
 
 The notion of Github Actions is closely related to
-CI/CD (Continuous Integration & Continunous Deployment).
+CI/CD (Continuous Integration & Continuous Deployment).
 
 
 ```yaml
@@ -353,9 +356,9 @@ Other alternatives: *Git Graph* extension.
 
 #### Simple Mode
 
-New Branch -> Modification -> Push -> Pull Request
+New Branch -> Code Modification -> Push -> Pull Request
 
-#### A better but more complicated approach 
+#### A better but more complicated procedure 
 
 ```shell script
 # Checkout the master branch - you want your new branch to come from master
@@ -392,16 +395,18 @@ Whether you're trying to give back to the open source community
 or collaborating on your own projects, 
 knowing how to properly fork and generate pull requests is essential. 
 
-This section depicts the fairly "standard" procedure for creating a fork, 
-doing your work, issuing a pull request, 
-and merging that pull request back into the original project.
+
 
 #### Simple Mode
 
-Fork -> Modification -> Push -> Pull Request
+Fork -> Code Modification -> Push -> Pull Request
 
 
-#### A better but more complicated approach 
+#### A better but more complicated procedure 
+
+The following subsections depict the fairly "standard" (better but more complicated) procedure for creating a fork, 
+doing your work, issuing a pull request, 
+and merging that pull request back into the original project.
 
 #### Creating a Fork
 
@@ -442,6 +447,9 @@ you might want to do a few things to clean up your branch and make
 it as simple as possible for the original repo's maintainer 
 to test, accept, and merge your work.
 
+Merge vs rebase:
+https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+
 ```shell script
 # Add 'upstream' repo to list of remotes
 git remote add upstream https://github.com/UPSTREAM-USER/ORIGINAL-PROJECT.git
@@ -470,6 +478,9 @@ to your pull request, just push the updates to GitHub. Your pull request
 will automatically track the changes on your development branch and update.
 
 #### Accepting and Merging a Pull Request
+
+![](readme_img/forkworkflow.png)
+
 Take note that unlike the previous sections which were written from 
 the perspective of someone that created a fork and generated a pull request, 
 this section is written from the perspective of the original 
@@ -569,11 +580,6 @@ sudo nohup docker run -it --rm -d -p 8818:80 --name pageshucontainer pageshuimag
 ```
 
 Now, you can visit the website at: http://116.205.139.7:8818
-
-
-
-
-
 
 ## Serving static pages with your own Domain Name
 ![](readme_img/huaweialitencent.png)
