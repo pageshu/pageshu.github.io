@@ -720,4 +720,15 @@ HTTPS uses port 443.
 If you want to generate very beautiful CV pdf:
 - https://www.overleaf.com/gallery/tagged/cv
 
+### Re-clone submodule
+If for some reason your submodule doesn't work, here is how:
+```shell script
+git rm --cached themes/ananke
+git rm .gitmodules             
+rm -rf themes/ananke/.git 
+touch .gitmodules
+git submodule add --force git@github.com:theNewDynamic/gohugo-theme-ananke.git themes/ananke
+git add .
+git commit -m "re-clone submodule"
+```
 
