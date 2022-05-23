@@ -340,9 +340,113 @@ Install *Git History* extension on your VS Code.
 
 Other alternatives: *Git Graph* extension.
 
-### Fork, then pull request
 
-### Create new branch, then pull request
+
+### Create new branch as a team collaborator, then submit pull request
+
+
+### Fork, then pull request
+Reference:
+- *https://gist.github.com/Chaser324/ce0505fbed06b947d962*
+
+
+#### Creating a Fork
+
+Just head over to the GitHub page and click the "Fork" button. 
+It's just that simple. Once you've done that, 
+you can use clone your repo with command line:
+
+```shell script
+# Clone your fork to your local machine
+git clone git@github.com:<FORKER-USERNAME>/<FORKED-PROJECT>.git
+```
+
+#### Create a Branch
+Whenever you begin work on a new feature or bugfix, 
+it's important that you create a new branch. Not only is 
+it proper git workflow, but it also keeps your changes 
+organized and separated from the master branch so that 
+you can easily submit and manage multiple pull requests 
+for every task you complete.
+
+```shell script
+# Checkout the master branch - you want your new branch to come from master
+git checkout master
+
+# Create a new branch named newfeature (give your branch its own simple informative name)
+# Switch to your new branch
+git checkout  -b newfeature
+```
+
+Now, go to town hacking away and making whatever changes you want to.
+
+#### Cleaning Up Your Work
+
+Prior to submitting your pull request, 
+you might want to do a few things to clean up your branch and make 
+it as simple as possible for the original repo's maintainer 
+to test, accept, and merge your work.
+
+```shell script
+
+# Add 'upstream' repo to list of remotes
+git remote add upstream https://github.com/UPSTREAM-USER/ORIGINAL-PROJECT.git
+
+# Verify the new remote named 'upstream'
+git remote -v
+
+# Fetch upstream master and merge with your repo's master branch
+git checkout master
+git fetch upstream/master
+git pull upstream master
+
+# If there were any new commits, rebase your development branch
+git checkout newfeature
+git rebase master
+```
+
+#### Submitting your Pull Request
+
+Once you've committed and pushed all of your changes to GitHub, 
+go to the page for your fork on GitHub, select your development branch, 
+and click the pull request button. If you need to make any adjustments 
+to your pull request, just push the updates to GitHub. Your pull request 
+will automatically track the changes on your development branch and update.
+
+#### Accepting and Merging a Pull Request
+Take note that unlike the previous sections which were written from 
+the perspective of someone that created a fork and generated a pull request, 
+this section is written from the perspective of the original 
+repository owner who is handling an incoming pull request.
+Thus, where the "forker" was referring to the original repository as ```upstream```, 
+we're now looking at it as the owner of that original repository and the standard ```origin``` remote.
+
+#### Manually Merging a Pull Request
+
+To do the merge manually, you'll need to checkout 
+the target branch in the source repo, pull directly 
+from the fork, and then merge and push.
+
+```shell script
+# Checkout the branch you're merging to in the target repo
+git checkout master
+
+# Pull the development branch from the fork repo where the pull request development was done.
+git pull https://github.com/<FORK-USERNAME>/<FORKED-PROJECT>.git newfeature
+
+# Merge the development branch
+git merge newfeature
+
+# Push master with the new feature merged into it
+git push origin master
+```
+
+Now that you're done with the development branch, you're free to delete it.
+
+```shell script
+git branch -d newfeature
+```
+
 
 ### Git merge, and merge conflict resolving
 

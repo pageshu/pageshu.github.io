@@ -7,3 +7,11 @@ node_modules
 dist
 tmp
 *.lock
+~$*
+*~
+*.swp
+*.swo
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*/__pycache__/*
+**/.DS_Store
