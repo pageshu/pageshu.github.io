@@ -359,7 +359,7 @@ git commit -m "new feature"
 git checkout master
 git pull origin master
 git checkout newfeature
-git rebase master
+git rebase master # or, git merge master
 
 # push 
 git push origin newfeature
@@ -370,6 +370,7 @@ git push origin newfeature
 
 #### Merge ```newfeature``` branch
 
+![](readme_img/pullrequestapprove.gif)
 
 ### Cross Team
 Reference:
@@ -435,7 +436,7 @@ git pull upstream master
 
 # If there were any new commits, rebase your development branch
 git checkout newfeature
-git rebase master
+git rebase master # or, git merge master
 ```
 
 #### Submitting your Pull Request
