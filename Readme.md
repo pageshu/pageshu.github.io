@@ -400,7 +400,7 @@ git push origin newfeature
 #### Merge ```newfeature``` branch
 
 
-### Cross Team (i.e. you don't have write right to the repo)
+### Cross Team (i.e. you don't have write access to the repo)
 Reference:
 - *https://gist.github.com/Chaser324/ce0505fbed06b947d962*
 
@@ -589,7 +589,7 @@ FROM nginx:latest
 COPY . /usr/share/nginx/html/
 ```
 
-Build run docker image and run docker container:
+Build docker image and run docker container:
 ```shell script
 sudo docker build -t pageshuimage .
 sudo nohup docker run -it --rm -d -p 8818:80 --name pageshucontainer pageshuimage > ~/pageshu.txt &
@@ -615,8 +615,6 @@ In this tutorial, instead of using an [Ubuntu software named "webhook"](https://
 we are going to develop, by ourselves, a Python based solution.
 
 We use [**FastAPI**](https://testdriven.io/blog/moving-from-flask-to-fastapi) and **Uvicorn** for listening to incoming requests from GitHub.
-
-### VM Pages
 
 
 ##  [optional] Dockerize this repository  
@@ -672,39 +670,11 @@ So that one can run this project with one simple Docker commandline.
 ## Conclusion
 ![](readme_img/conclusion.png)
 
-
-## [optional] Further reading 
-
-### Hugo Dockerization 
-- https://dev.to/eduardort/hugo-and-nginx-multi-stage-build-dockerfile-3o63
-- https://www.bravoslab.com/post/static-website-wirh-hugo.io-and-ngnix/
-- https://github.com/jtreminio/hugoBasicExample
-
-### Cloud VM Pages with HTTPS
-![](readme_img/https.png)
-If you want to have HTTPS, you should proceed with 网站备案 first.
-- https://cloud.tencent.com/document/product/243
-
-You should also apply for an SSL certificate.
-- https://cloud.tencent.com/document/product/400/7572
-
-HTTPS uses port 443.
-
-### Overleaf CV
 If you want to generate very beautiful CV pdf:
 - https://www.overleaf.com/gallery/tagged/cv
 
-### Re-clone submodule
-If for some reason your submodule doesn't work, here is how:
-```shell script
-git rm --cached themes/ananke
-git rm .gitmodules             
-rm -rf themes/ananke/.git 
-rm -rf themes/ananke
-touch .gitmodules
-git submodule add --force git@github.com:theNewDynamic/gohugo-theme-ananke.git themes/ananke
-git add .
-git commit -m "re-clone submodule"
+
+
 ```
 
 

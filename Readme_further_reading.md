@@ -1,4 +1,4 @@
-## [optional] Serving  pages with your own Domain Name 
+## Serving  pages with your own Domain Name 
 
 ![](readme_img/domain.png)
 
@@ -32,7 +32,38 @@ How:
 
 - http:// pageshu. xyz or top (buy from: https://activity.huaweicloud.com/domain1.html)
 
-## [optional] Automatic deployment with GitHub Webhook 
 
-### WH Pages
+## Cloud VM Pages with HTTPS
+![](readme_img/https.png)
+If you want to have HTTPS, you should proceed with 网站备案 first.
+- https://cloud.tencent.com/document/product/243
+
+You should also apply for an SSL certificate.
+- https://cloud.tencent.com/document/product/400/7572
+
+HTTPS uses port 443.
+
+
+## WH Pages Automatic deployment with GitHub Webhook 
+
 Github Webhook -> VM pull -> VM ```cloudbase ``` CLI update folder. https://cloud.tencent.com/document/product/876/47142
+
+
+
+## Hugo Dockerization 
+- https://dev.to/eduardort/hugo-and-nginx-multi-stage-build-dockerfile-3o63
+- https://www.bravoslab.com/post/static-website-wirh-hugo.io-and-ngnix/
+- https://github.com/jtreminio/hugoBasicExample
+
+
+## Re-clone submodule
+If for some reason your submodule doesn't work, here is how:
+```shell script
+git rm --cached themes/ananke
+git rm .gitmodules             
+rm -rf themes/ananke/.git 
+rm -rf themes/ananke
+touch .gitmodules
+git submodule add --force git@github.com:theNewDynamic/gohugo-theme-ananke.git themes/ananke
+git add .
+git commit -m "re-clone submodule"
