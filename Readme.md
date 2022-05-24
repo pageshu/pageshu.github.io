@@ -54,10 +54,8 @@ With the corresponding website:
   - [[Bonus] Video 9 - Bootstrap Pages]()
 - [optional] Cloud VM Pages 
   - [[optional] Video 10 - Cloud VM Pages](https://www.bilibili.com/video/BV1PY4y1t746/)
-- [optional] Pages with Your Own Domain Name
-  - [[optional] Video 11 - Pages with Your Own Domain Name]()
 - [optional] Automatic Deployment with GitHub WebHook
-  - [[optional] Video 12 - Automatic Deployment with GitHub WebHook]()
+  - [[optional] Video 11 - Automatic Deployment with GitHub WebHook]()
   
   
 
@@ -539,6 +537,9 @@ git branch -d newfeature
 ## [bonus] Bootstrap Web Pages
 - https://bootstrapmade.com/
 
+Just add a folder in the master branch.
+
+And then configure Github Pages in *Settings* of the repo.
 
 
 ##  [optional] Serving pages on Cloud Virtual Machine
