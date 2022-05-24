@@ -618,7 +618,7 @@ we are going to develop, by ourselves, a Python based solution.
 We use [**FastAPI**](https://testdriven.io/blog/moving-from-flask-to-fastapi) and **Uvicorn** for listening to incoming requests from GitHub.
 
 
-##  [optional] Dockerize this repository  
+##  [optional] Let's Dockerize this repository  
 
 ### Remove git submodules
 ![](readme_img/submodule.png)
@@ -660,12 +660,6 @@ WORKDIR /usr/share/nginx/html/
 # is copied into the public fold of nginx
 COPY --from=build /site/public /usr/share/nginx/html
 ```
-
-## [optional] Ship the Dockerfile to DockerHub   
-
-![](readme_img/dockerhub.png)
-
-So that one can run this project with one simple Docker commandline.
 
 
 

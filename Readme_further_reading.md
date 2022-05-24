@@ -72,3 +72,10 @@ git commit -m "re-clone submodule"
 ## Overleaf
 If you want to generate very beautiful CV pdf:
 - https://www.overleaf.com/gallery/tagged/cv
+
+## [optional] Ship the Dockerfile to DockerHub   
+
+![](readme_img/dockerhub.png)
+
+So that one can run this project with one simple Docker commandline.
+
