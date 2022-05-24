@@ -46,8 +46,8 @@ With the corresponding website:
   - [Video 4 - Localhost Pages](https://www.bilibili.com/video/BV1Wv4y1A75F/)
 - GitHub Pages
   - [Video 5 - Github Pages](https://www.bilibili.com/video/BV1V5411R7EM/)
-- Cloud VM Pages [optional]
-  - [Video 6 - Cloud VM Pages [optional]](https://www.bilibili.com/video/BV1PY4y1t746/)
+- [optional] Cloud VM Pages 
+  - [[optional] Video 6 - Cloud VM Pages](https://www.bilibili.com/video/BV1PY4y1t746/)
 - Pages with Your Own Domain Name
 
 ## Setup 
@@ -194,7 +194,7 @@ Our website should be **responsive**.
 -  ```F12```
 -  ```Ctrl + Shift + M```
 
-## Serving static pages on localhost 
+## Serving pages on localhost 
 ![](readme_img/localhost.png)
 
 ### Live Server
@@ -205,7 +205,7 @@ hugo -D --minify --baseURL=http://127.0.0.1:5500/public
 
 On VS Code, click *Go Live* to open Live Server extension.
 
-## Serving static pages on GitHub pages
+## Serving pages on GitHub pages
 
 ![](readme_img/githubpages.png)
 
@@ -523,9 +523,12 @@ git branch -d newfeature
 
 ### Git merge, and merge conflict resolving
 
+## [bonus] Bootstrap Web Pages
+- https://bootstrapmade.com/
 
 
-## Serving static pages on Cloud Virtual Machine [optional]
+
+##  [optional] Serving pages on Cloud Virtual Machine
 
 
 ### Buy and connect to cloud VM
@@ -581,20 +584,21 @@ sudo nohup docker run -it --rm -d -p 8818:80 --name pageshucontainer pageshuimag
 
 Now, you can visit the website at: http://116.205.139.7:8818
 
-## Serving static pages with your own Domain Name [optional]
-![](readme_img/huaweialitencent.png)
 
+
+
+## [optional] Serving  pages with your own Domain Name 
+
+![](readme_img/domain.png)
 
 ### Domain Registration
 #### Check if a domain name is available
-![](readme_img/domain.png)
 - https://www.huaweicloud.com/product/domain.html
 - https://wanwang.aliyun.com/domain/
 - https://dnspod.cloud.tencent.com/
 
 
 #### Sales
-![](readme_img/sale.png)
 - https://cloud.tencent.com/act/domainsales
 - https://activity.huaweicloud.com/discount_area_v5/index.html
 - https://activity.huaweicloud.com/promotion/
@@ -619,7 +623,7 @@ How:
 
 
 
-## Automatic deployment of WH Pages and with GitHub Webhook [optional]
+## [optional] Automatic deployment with GitHub Webhook 
 ![](readme_img/hooks.png)VM Pages 
 
 One naive and simple solution would be to use ```crontab``` for periodic pull from GitHub ([ref1](https://dpursanov.medium.com/automatic-deploy-using-git-72ddbc1785cf), 
@@ -645,7 +649,7 @@ Github Webhook -> VM pull -> VM ```cloudbase ``` CLI update folder. https://clou
 ### VM Pages
 
 
-## Let's Dockerize this repository with ... Dockerfile  [optional]
+##  [optional] Dockerize this repository  
 
 ### Remove git submodules
 ![](readme_img/submodule.png)
@@ -688,7 +692,7 @@ WORKDIR /usr/share/nginx/html/
 COPY --from=build /site/public /usr/share/nginx/html
 ```
 
-## Let's ship the Dockerfile to ... DockerHub   [optional]
+## [optional] Ship the Dockerfile to DockerHub   
 
 ![](readme_img/dockerhub.png)
 
@@ -699,7 +703,7 @@ So that one can run this project with one simple Docker commandline.
 ![](readme_img/conclusion.png)
 
 
-## Further reading [optional]
+## [optional] Further reading 
 
 ### Hugo Dockerization 
 - https://dev.to/eduardort/hugo-and-nginx-multi-stage-build-dockerfile-3o63
@@ -732,4 +736,7 @@ git submodule add --force git@github.com:theNewDynamic/gohugo-theme-ananke.git t
 git add .
 git commit -m "re-clone submodule"
 ```
+
+
+
 
