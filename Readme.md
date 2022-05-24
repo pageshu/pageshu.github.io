@@ -46,9 +46,22 @@ With the corresponding website:
   - [Video 4 - Localhost Pages](https://www.bilibili.com/video/BV1Wv4y1A75F/)
 - GitHub Pages
   - [Video 5 - Github Pages](https://www.bilibili.com/video/BV1V5411R7EM/)
+- Code Collaboration with GitHub Pull Request
+  - [Video 6 - GitHub Pull Request - Within One Team]()
+  - [Video 7 - GitHub Pull Request - Across Teams]()
+  - [Video 8 - GitHub Pull Request - Merge Conflict Resolving]()
+- [Bonus] Bootstrap Pages
+  - [[Bonus] Video 9 - Bootstrap Pages]()
 - [optional] Cloud VM Pages 
-  - [[optional] Video 6 - Cloud VM Pages](https://www.bilibili.com/video/BV1PY4y1t746/)
-- Pages with Your Own Domain Name
+  - [[optional] Video 10 - Cloud VM Pages](https://www.bilibili.com/video/BV1PY4y1t746/)
+- [optional] Pages with Your Own Domain Name
+  - [[optional] Video 11 - Pages with Your Own Domain Name]()
+- [optional] Automatic Deployment with GitHub WebHook
+  - [[optional] Video 12 - Automatic Deployment with GitHub WebHook]()
+  
+  
+
+
 
 ## Setup 
 
