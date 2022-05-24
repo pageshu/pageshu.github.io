@@ -465,7 +465,7 @@ https://www.atlassian.com/git/tutorials/merging-vs-rebasing
 
 ```shell script
 # Add 'upstream' repo to list of remotes
-git remote add upstream https://github.com/UPSTREAM-USER/ORIGINAL-PROJECT.git
+git remote add upstream https://github.com/<UPSTREAM-USER>/<ORIGINAL-PROJECT>.git
 
 # Verify the new remote named 'upstream'
 git remote -v
@@ -666,16 +666,6 @@ COPY --from=build /site/public /usr/share/nginx/html
 
 So that one can run this project with one simple Docker commandline.
 
-
-## Conclusion
-![](readme_img/conclusion.png)
-
-If you want to generate very beautiful CV pdf:
-- https://www.overleaf.com/gallery/tagged/cv
-
-
-
-```
 
 
 

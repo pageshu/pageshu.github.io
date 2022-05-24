@@ -67,3 +67,8 @@ touch .gitmodules
 git submodule add --force git@github.com:theNewDynamic/gohugo-theme-ananke.git themes/ananke
 git add .
 git commit -m "re-clone submodule"
+```
+
+## Overleaf
+If you want to generate very beautiful CV pdf:
+- https://www.overleaf.com/gallery/tagged/cv
