@@ -541,6 +541,7 @@ git branch -d newfeature
 - https://themewagon.com/theme-price/free/
 - https://www.creative-tim.com/bootstrap-themes/free
 - https://bootswatch.com/
+- https://mdbootstrap.com/freebies/
 
 ### Configuration
 Just add a folder in the master branch.
