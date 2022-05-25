@@ -535,12 +535,14 @@ git branch -d newfeature
 ### Git merge, and merge conflict resolving
 
 ## [bonus] Bootstrap Web Pages
+### Themes
 - https://bootstrapmade.com/
 - https://themefisher.com/free-bootstrap-templates/
 - https://themewagon.com/theme-price/free/
 - https://www.creative-tim.com/bootstrap-themes/free
 - https://bootswatch.com/
 
+### Configuration
 Just add a folder in the master branch.
 
 And then configure Github Pages in *Settings* of the repo.
