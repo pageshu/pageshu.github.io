@@ -154,6 +154,9 @@ Then, add the theme to the site configuration ```config.toml```:
 theme = "ananke"
 ```
 
+![](readme_img/gitfolder.png)
+
+
 ### Add Some Content
 
 ![](readme_img/markdown.png)
@@ -276,6 +279,8 @@ git push -u origin master
 ```
 
 A commit is a snapshot of your git repository at one point in time and each commit cumulatively forms your repo history.
+
+![](readme_img/gitstage.png)
 
 ![](readme_img/gitcommit.gif)
 
