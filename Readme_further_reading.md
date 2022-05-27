@@ -159,3 +159,10 @@ We use [**FastAPI**](https://testdriven.io/blog/moving-from-flask-to-fastapi) an
 ### GitHub Actions
 To learn more about GitHub Actions:
 - https://yonatankra.com/7-github-actions-tricks-i-wish-i-knew-before-i-started/
+
+### A very good tutorial for git commands
+
+- https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1
+
+### Online Git Branch Visualization & Playground
+- https://learngitbranching.js.org/

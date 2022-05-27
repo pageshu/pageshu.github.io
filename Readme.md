@@ -260,7 +260,7 @@ tmp
 ### Push you code to GitHub
 ![](readme_img/fire.png)
 Create a github repository ```<YOUR-GITHUB-USER-NAME-OR-ORGANIZATION-NAME>.github.io```, e.g. ```pageshu.github.io```. Note that 
-```<YOUR-GITHUB-USER-NAME-OR-ORGANIZATION-NAME>``` should be unique and has not been used by other GitHub users or orgaizations.
+```<YOUR-GITHUB-USER-NAME-OR-ORGANIZATION-NAME>``` should be unique and has not been used by other GitHub users or organizations.
 
 Push you code to GitHub:
 ```shell script
@@ -366,14 +366,6 @@ and in few minutes the changes will appear on your GitHub page URL.
 
 :rocket: :rocket: :rocket:  A very good tutorial :point_right: :[分支创建+pr-by孙胡蝶.docx](分支创建+pr-by孙胡蝶.docx).
 
-### Another very good tutorial for git commands
-
-- https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1
-
-### Online Git Branch Visualization & Playground
-- https://learngitbranching.js.org/
-- https://velog.io/@seob/TIL-visualized-git-commands
-
 ### VS Code extension
 
 Install *Git History* extension on your VS Code.
@@ -388,7 +380,12 @@ Other alternatives: *Git Graph* extension.
 
 New Branch -> Code Modification -> Push -> Pull Request
 
-#### A better but more complicated procedure 
+#### A better but more sophisticated procedure 
+
+![](readme_img/gitfetch.gif)
+
+![](readme_img/gitpull.gif)
+
 
 ```shell script
 # Checkout the master branch - you want your new branch to come from master
@@ -432,7 +429,7 @@ knowing how to properly fork and generate pull requests is essential.
 Fork -> Code Modification -> Push -> Pull Request
 
 
-#### A better but more complicated procedure 
+#### A better but more sophisticated procedure 
 
 The following subsections depict the fairly "standard" (better but more complicated) procedure for creating a fork, 
 doing your work, issuing a pull request, 
@@ -471,6 +468,12 @@ Now, go to town hacking away and making whatever changes you want to.
 #### Cleaning Up Your Work
 
 ![](readme_img/git_rebase.gif)
+
+![](readme_img/gitrebase2.gif)
+
+![](readme_img/gitmerge.gif)
+
+![](readme_img/gitmerge2.gif)
 
 Prior to submitting your pull request, 
 you might want to do a few things to clean up your branch and make 
@@ -552,6 +555,8 @@ git branch -d newfeature
 ```
 
 ### Git merge, and merge conflict resolving
+
+![](readme_img/gitconflict.gif)
 
 ## [bonus] Bootstrap Web Pages
 ### Themes
