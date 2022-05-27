@@ -275,6 +275,10 @@ git remote add origin git@github.com:<YOUR-GITHUB-USER-NAME-OR-ORGANIZATION-NAME
 git push -u origin master
 ```
 
+A commit is a snapshot of your git repository at one point in time and each commit cumulatively forms your repo history.
+
+![](readme_img/gitcommit.gif)
+
 ![](readme_img/gitpush.gif)
 
 ### Create a new branch
@@ -388,9 +392,7 @@ Other alternatives: *Git Graph* extension.
 New Branch -> Code Modification -> Push -> Pull Request
 
 
-A commit is a snapshot of your git repository at one point in time and each commit cumulatively forms your repo history.
 
-![](readme_img/gitcommit.gif)
 
 #### A better but more sophisticated procedure 
 
