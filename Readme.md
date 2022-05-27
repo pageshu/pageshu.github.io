@@ -382,6 +382,11 @@ Other alternatives: *Git Graph* extension.
 
 New Branch -> Code Modification -> Push -> Pull Request
 
+
+A commit is a snapshot of your git repository at one point in time and each commit cumulatively forms your repo history.
+
+![](readme_img/gitcommit.gif)
+
 #### A better but more sophisticated procedure 
 
 ![](readme_img/gitfetch.gif)
