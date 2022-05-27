@@ -95,7 +95,8 @@ go version
 ![](readme_img/hugo.png)
 
 #### Windows
-Download [Hugo executable](https://github.com/gohugoio/hugo/releases) (extended version), then [add its path to environment variable](https://www.computerhope.com/issues/ch000549.htm).
+Download [Hugo executable](https://github.com/gohugoio/hugo/releases) (extended version), 
+then [add its path to environment variable](https://www.computerhope.com/issues/ch000549.htm).
 
 #### Linux
 ```sudo apt -y install hugo```
@@ -215,12 +216,6 @@ On VS Code, click *Go Live* to open Live Server extension.
 
 ![](readme_img/githubpages.png)
 
-### Reference
-You could refer to those links to learn more about this topic.
-- *https://gohugo.io/hosting-and-deployment/hosting-on-github/*
-- *https://docs.github.com/en/pages/quickstart*
-- *https://medium.com/@asishrs/automate-your-github-pages-deployment-using-hugo-and-actions-518b959a51f9*
-- *https://www.morling.dev/blog/automatically-deploying-hugo-website-via-github-actions/*
 
 ### Repository in video
 In the video, I used this repository:
@@ -294,6 +289,35 @@ The notion of Github Actions is closely related to
 CI/CD (Continuous Integration & Continuous Deployment).
 
 
+In order for the GitHub action to deploy the website, a GitHub 
+[deploy key](https://docs.github.com/en/developers/overview/managing-deploy-keys) 
+must be registered.
+
+To do so, create a new SSH key pair on your machine like with the command line:
+
+```shell script
+ssh-keygen
+```
+
+In the prompt input the file name (or, the path) for your key,
+e.g. ```rsa_pageshu```. Then strike ```Enter``` on the keyboard for twice.
+
+This will create two files, the public key (```rsa_pageshu.pub```) 
+and the private key (```rsa_pageshu```). 
+
+Go to 
+https://github.com/<YOUR-GITHUB-USER-NAME-OR-ORGANIZATION-NAME>/<YOUR-GITHUB-USER-NAME-OR-ORGANIZATION-NAME>.github.io.git/settings/keys 
+and click "Add deploy key". 
+Paste in the public part of your key pair and check the "Allow write access" box.
+
+Then, go to 
+https://github.com/<YOUR-GITHUB-USER-NAME-OR-ORGANIZATION-NAME>/<YOUR-GITHUB-USER-NAME-OR-ORGANIZATION-NAME>.github.io.git/settings/secrets 
+and click "Add new secret". Choose ACTIONS_DEPLOY_KEY as the name and paste the private part of your key pair into the "Value" field.
+
+With the key in place, it’s time to set up the actual GitHub Actions workflow. 
+This is simply done by creating the file *.github/workflows/main.yml* 
+in your repository with the following contents.
+
 ```yaml
 name: pageshu
 
@@ -328,9 +352,9 @@ jobs:
         allow_empty_commit: true
 ```
 
-To learn more about GitHub Actions:
-- https://yonatankra.com/7-github-actions-tricks-i-wish-i-knew-before-i-started/
-
+Once your workflow completed, you can see new commits 
+on the GitHub pages repository master branch 
+and in few minutes the changes will appear on your GitHub page URL.
 
 ## Code collaboration via GitHub Pull Request
 

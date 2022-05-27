@@ -144,3 +144,18 @@ In this tutorial, instead of using an [Ubuntu software named "webhook"](https://
 we are going to develop, by ourselves, a Python based solution.
 
 We use [**FastAPI**](https://testdriven.io/blog/moving-from-flask-to-fastapi) and **Uvicorn** for listening to incoming requests from GitHub.
+
+
+## Reference
+
+### GH pages
+
+- *https://gohugo.io/hosting-and-deployment/hosting-on-github/*
+- *https://docs.github.com/en/pages/quickstart*
+- *https://medium.com/@asishrs/automate-your-github-pages-deployment-using-hugo-and-actions-518b959a51f9*
+- *https://www.morling.dev/blog/automatically-deploying-hugo-website-via-github-actions/*
+
+
+### GitHub Actions
+To learn more about GitHub Actions:
+- https://yonatankra.com/7-github-actions-tricks-i-wish-i-knew-before-i-started/
