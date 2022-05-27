@@ -6,7 +6,7 @@
 The main goal of this mini-series is not to teach you Web Technology, but to 
 walk through the main steps for 
 building a static website, and to learn to use, in the meanwhile:
-- Git (branching, submodule, pull request etc.)
+- Git
 - Some very useful DevOps tools (e.g. Nginx, live server, Github actions, CI/CD, etc.)
 - [optional] Cloud Virtual Machine
 - [optional] Some very useful linux commands (e.g. nohup, scp, etc.)
