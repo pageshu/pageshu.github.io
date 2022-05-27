@@ -270,6 +270,8 @@ git remote add origin git@github.com:<YOUR-GITHUB-USER-NAME-OR-ORGANIZATION-NAME
 git push -u origin master
 ```
 
+![](readme_img/gitpush.gif)
+
 ### Create a new branch
 ![](readme_img/branch.png)
 
