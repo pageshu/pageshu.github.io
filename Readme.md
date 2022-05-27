@@ -389,6 +389,21 @@ Install *Git History* extension on your VS Code.
 Other alternatives: *Git Graph* extension.
 
 
+### General Principle
+
+There are different pull requests workflows with different styles, but the general process is as follows:
+
+- 1. A developer creates the feature in a dedicated branch in their local repo.
+
+- 2. The developer pushes the branch to a GitHub repository.
+
+- 3. The developer files a pull request via GitHub.
+
+- 4. The rest of the team reviews the code, discusses it, and alters it.
+
+- 5. The project maintainer merges the feature into the official repository and closes the pull request.
+
+
 ### Within One Team (i.e. you have write access to the repo)
 
 
@@ -574,6 +589,13 @@ git branch -d newfeature
 ```
 
 ### Git merge, and merge conflict resolving
+
+The — no-ff option is useful when you want to have a clear notion of your feature branch. 
+So you treat a feature branch with a bunch of commits as a single unit, 
+and merge them as a single unit. It is clear from your history when you do feature branch merging with — no-ff.
+
+
+![](readme_img/gitmergenoff.png)
 
 ![](readme_img/gitconflict.gif)
 
