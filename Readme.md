@@ -156,9 +156,6 @@ Then, add the theme to the site configuration ```config.toml```:
 theme = "ananke"
 ```
 
-![](readme_img/gitfolder.png)
-
-
 ### Add Some Content
 
 ![](readme_img/markdown.png)
@@ -267,26 +264,38 @@ tmp
 *.lock
 ```
 
+### Git add 
+
+![](readme_img/gitaddstage.gif)
+
+
+```shell script
+git add .
+```
+
+
+### Git commit
+![](readme_img/gitcommit.gif)
+
+A commit is a snapshot of your git repository at one point in time and each commit cumulatively forms your repo history.
+
+```shell script
+git commit -m "source code for hugo website"
+```
+
+
 ### Push you code to GitHub
-![](readme_img/fire.png)
+
+![](readme_img/gitpush.gif)
+
 Create a github repository ```<YOUR-GITHUB-USER-NAME-OR-ORGANIZATION-NAME>.github.io```, e.g. ```pageshu.github.io```. Note that 
 ```<YOUR-GITHUB-USER-NAME-OR-ORGANIZATION-NAME>``` should be unique and has not been used by other GitHub users or organizations.
 
 Push you code to GitHub:
 ```shell script
-git add .
-git commit -m "source code for hugo website"
 git remote add origin git@github.com:<YOUR-GITHUB-USER-NAME-OR-ORGANIZATION-NAME>/<YOUR-GITHUB-USER-NAME-OR-ORGANIZATION-NAME>.github.io.git
 git push -u origin master
 ```
-
-A commit is a snapshot of your git repository at one point in time and each commit cumulatively forms your repo history.
-
-![](readme_img/gitstage.png)
-
-![](readme_img/gitcommit.gif)
-
-![](readme_img/gitpush.gif)
 
 ### Create a new branch
 ![](readme_img/branch.png)
@@ -376,6 +385,12 @@ and in few minutes the changes will appear on your GitHub page URL.
 
 ## Code collaboration via GitHub Pull Request
 
+### If you are on Solo mode
+
+![](readme_img/gitstage.png)
+
+
+### If you work with other developers
 
 ![](readme_img/pullrequestapprove.gif)
 
@@ -409,18 +424,7 @@ There are different pull requests workflows with different styles, but the gener
 ### Within One Team (i.e. you have write access to the repo)
 
 
-#### Simple Mode
-
-New Branch -> Code Modification -> Push -> Pull Request
-
-
-
-
-#### A better but more sophisticated procedure 
-
-![](readme_img/gitfetch.gif)
-
-![](readme_img/gitpull.gif)
+#### Create and push new branch 
 
 
 ```shell script
@@ -503,13 +507,8 @@ Now, go to town hacking away and making whatever changes you want to.
 
 #### Cleaning Up Your Work
 
-![](readme_img/git_rebase.gif)
 
-![](readme_img/gitrebase2.gif)
 
-![](readme_img/gitmerge.gif)
-
-![](readme_img/gitmerge2.gif)
 
 Prior to submitting your pull request, 
 you might want to do a few things to clean up your branch and make 
@@ -590,12 +589,23 @@ Now that you're done with the development branch, you're free to delete it.
 git branch -d newfeature
 ```
 
-### Git merge, and merge conflict resolving
+### Resolving merge conflict 
 
 The — no-ff option is useful when you want to have a clear notion of your feature branch. 
 So you treat a feature branch with a bunch of commits as a single unit, 
 and merge them as a single unit. It is clear from your history when you do feature branch merging with — no-ff.
 
+![](readme_img/gitfetch.gif)
+
+![](readme_img/gitpull.gif)
+
+![](readme_img/gitmerge.gif)
+
+![](readme_img/gitmerge2.gif)
+
+![](readme_img/git_rebase.gif)
+
+![](readme_img/gitrebase2.gif)
 
 ![](readme_img/gitmergenoff.png)
 
