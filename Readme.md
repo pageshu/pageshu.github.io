@@ -3,23 +3,25 @@
 ## Why this mini-series tutorial?
 ![](readme_img/why.png)
 
-The main goal of this mini-series is not to teach you Web Technology, but to 
+The main goal of this mini-series is **NOT** to teach you Web Technology, but to 
 walk through the main steps for 
 building a static website, and to learn to use, in the meanwhile:
 - Git
-- Some very useful DevOps tools (e.g. Nginx, live server, Github actions, CI/CD, etc.)
+- GitHub (pull request, github actions)
 - [optional] Cloud Virtual Machine
 - [optional] Some very useful linux commands (e.g. nohup, scp, etc.)
 - [optional] Docker
+- [optional] Nginx, live server, CI/CD
 
 :rocket: :rocket: *When used as teaching material for courses (e.g. Machine Learning), 
-the main focus will bu put on the ***Git*** tool.*
+the main focus will bu put on the ***Git*** tool and ***GitHub*** platform.*
 
 Those skills are quite versatile and could be very useful when you create your website 
 with other static web generators (e.g. Hexo, Jekyll etc.), dynamic web frameworks, 
 as well as in many DevOps scenarios.
 
-:rocket: :rocket: ***Notice: If you just want to build your own personal website, you need only to watch videos 1-5, whose total length is ~30 minutes.***
+:rocket: :rocket: ***Notice: If you just want to build your own personal website, 
+you need only to watch videos 1-5, whose total length is ~30 minutes.***
 
 
 
