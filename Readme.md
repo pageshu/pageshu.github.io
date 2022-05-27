@@ -252,6 +252,11 @@ ssh-keygen
 
 ![](readme_img/ignore.png)
 
+
+```.gitignore``` tells git which files (or patterns) it should ignore. It's usually used to avoid committing transient files from your working directory that aren't useful to other collaborators, such as compilation products, temporary files IDEs create, etc.
+
+
+
 ```text
 .idea
 .vscode
