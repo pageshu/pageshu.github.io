@@ -600,6 +600,11 @@ The — no-ff option is useful when you want to have a clear notion of your feat
 So you treat a feature branch with a bunch of commits as a single unit, 
 and merge them as a single unit. It is clear from your history when you do feature branch merging with — no-ff.
 
+Those are scenarios where Conflicts could happen:
+
+![](readme_img/gitfetch.gif)
+
+![](readme_img/gitpull.gif)
 
 ![](readme_img/gitmerge.gif)
 
@@ -609,21 +614,9 @@ and merge them as a single unit. It is clear from your history when you do featu
 
 ![](readme_img/gitrebase2.gif)
 
+And here is how to fix it:
+
 ![](readme_img/gitconflict.gif)
-
-## [bonus] Bootstrap Web Pages
-### Themes
-- https://bootstrapmade.com/
-- https://themefisher.com/free-bootstrap-templates/
-- https://themewagon.com/theme-price/free/
-- https://www.creative-tim.com/bootstrap-themes/free
-- https://bootswatch.com/
-- https://mdbootstrap.com/freebies/
-
-### Configuration
-Just add a folder in the master branch.
-
-And then configure Github Pages in *Settings* of the repo.
 
 
 ##  [optional] Serving pages on Cloud Virtual Machine
