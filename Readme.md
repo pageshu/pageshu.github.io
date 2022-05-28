@@ -600,9 +600,6 @@ The — no-ff option is useful when you want to have a clear notion of your feat
 So you treat a feature branch with a bunch of commits as a single unit, 
 and merge them as a single unit. It is clear from your history when you do feature branch merging with — no-ff.
 
-![](readme_img/gitfetch.gif)
-
-![](readme_img/gitpull.gif)
 
 ![](readme_img/gitmerge.gif)
 
@@ -611,8 +608,6 @@ and merge them as a single unit. It is clear from your history when you do featu
 ![](readme_img/git_rebase.gif)
 
 ![](readme_img/gitrebase2.gif)
-
-![](readme_img/gitmergenoff.png)
 
 ![](readme_img/gitconflict.gif)
 
