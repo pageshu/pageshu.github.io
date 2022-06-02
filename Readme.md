@@ -426,6 +426,9 @@ There are different pull requests workflows with different styles, but the gener
 - 5. The project maintainer merges the feature into the official repository and closes the pull request.
 
 
+![](readme_img/zen.png)
+
+
 ### Within One Team (i.e. you have write access to the repo)
 
 
