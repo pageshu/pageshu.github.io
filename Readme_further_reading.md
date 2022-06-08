@@ -131,24 +131,6 @@ COPY --from=build /site/public /usr/share/nginx/html
 So that one can run this project with one simple Docker commandline.
 
 
-## [optional] Automatic deployment with GitHub Webhook 
-![](readme_img/hooks.png)VM Pages 
-
-One naive and simple solution would be to use ```crontab``` for periodic pull from GitHub ([ref1](https://dpursanov.medium.com/automatic-deploy-using-git-72ddbc1785cf), 
-[ref2](https://stackoverflow.com/questions/4414140/git-auto-pull-using-cronjob), 
-which would entail unnecessary resource waste.
-
-A better solution is to use GitHub WebHook:
-
-- https://ansonvandoren.com/posts/deploy-hugo-from-github/
-- https://yuluyan.com/posts/hugo-tutorial-2/
-
-### Python based solution
-
-In this tutorial, instead of using an [Ubuntu software named "webhook"](https://github.com/adnanh/webhook),
-we are going to develop, by ourselves, a Python based solution.
-
-We use [**FastAPI**](https://testdriven.io/blog/moving-from-flask-to-fastapi) and **Uvicorn** for listening to incoming requests from GitHub.
 
 
 ## Reference

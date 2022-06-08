@@ -694,6 +694,25 @@ sudo nohup docker run -it --rm -d -p 8818:80 --name pageshucontainer pageshuimag
 
 Now, you can visit the website at: http://116.205.139.7:8818
 
+## [optional] Automatic deployment with GitHub Webhook (TODO: Code by Sun Hudie)
+![](readme_img/hooks.png)VM Pages 
+
+One naive and simple solution would be to use ```crontab``` for periodic pull from GitHub ([ref1](https://dpursanov.medium.com/automatic-deploy-using-git-72ddbc1785cf), 
+[ref2](https://stackoverflow.com/questions/4414140/git-auto-pull-using-cronjob), 
+which would entail unnecessary resource waste.
+
+A better solution is to use GitHub WebHook:
+
+- https://ansonvandoren.com/posts/deploy-hugo-from-github/
+- https://yuluyan.com/posts/hugo-tutorial-2/
+
+### Python based solution
+
+In this tutorial, instead of using an [Ubuntu software named "webhook"](https://github.com/adnanh/webhook),
+we are going to develop, by ourselves, a Python based solution.
+
+We use [**FastAPI**](https://testdriven.io/blog/moving-from-flask-to-fastapi) and **Uvicorn** for listening to incoming requests from GitHub.
+
 
 ## Conclusion
 ![](readme_img/conclusion.png)
