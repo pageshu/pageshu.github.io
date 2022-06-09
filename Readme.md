@@ -338,12 +338,12 @@ This will create two files, the public key (```rsa_pageshu.pub```)
 and the private key (```rsa_pageshu```). 
 
 Go to 
-https://github.com/<YOUR-GITHUB-USER-NAME-OR-ORGANIZATION-NAME>/<YOUR-GITHUB-USER-NAME-OR-ORGANIZATION-NAME>.github.io.git/settings/keys 
+your repo -> settings -> keys 
 and click "Add deploy key". 
 Paste in the public part of your key pair and check the "Allow write access" box.
 
 Then, go to 
-https://github.com/<YOUR-GITHUB-USER-NAME-OR-ORGANIZATION-NAME>/<YOUR-GITHUB-USER-NAME-OR-ORGANIZATION-NAME>.github.io.git/settings/secrets 
+your repo -> settings -> secrets 
 and click "Add new secret". Choose ACTIONS_DEPLOY_KEY as the name and paste the private part of your key pair into the "Value" field.
 
 With the key in place, it’s time to set up the actual GitHub Actions workflow. 
