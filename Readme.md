@@ -694,7 +694,7 @@ sudo nohup docker run -it --rm -d -p 8818:80 --name pageshucontainer pageshuimag
 
 Now, you can visit the website at: http://116.205.139.7:8818
 
-## [optional] Automatic deployment with GitHub Webhook (TODO: Code by Sun Hudie)
+## [optional] Automatic deployment with GitHub Webhook (TODO)
 ![](readme_img/hooks.png)VM Pages 
 
 One naive and simple solution would be to use ```crontab``` for periodic pull from GitHub ([ref1](https://dpursanov.medium.com/automatic-deploy-using-git-72ddbc1785cf), 
