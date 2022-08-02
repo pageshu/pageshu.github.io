@@ -390,6 +390,25 @@ and in few minutes the changes will appear on your GitHub page URL.
 
 ## Code collaboration via GitHub Pull Request
 
+https://www.slideshare.net/CallonCampbell/git-pull-requests
+
+http://gish.github.io/pull-request-presentation/#/2
+
+http://gish.github.io/pull-request-presentation/#/3
+
+https://blog.codeanalogies.com/2019/05/26/pull-requests-explained/
+
+https://slideplayer.com/slide/17813784/
+
+http://comet.lehman.cuny.edu/sfulakeza/su19/tpp/slides/Day%201/Git%20and%20Github%20slides.pdf
+
+https://medium.com/geekculture/tech-for-pms-github-branches-and-pull-requests-77b1d341b09a
+
+https://rockefelleruniversity.github.io/RU_reproducibleR/presentations/slides/github.html#7
+
+
+
+
 ### If you are on Solo mode
 
 ![](readme_img/gitstage.png)
