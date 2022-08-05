@@ -168,3 +168,35 @@ To learn more about GitHub Actions:
 Just add a folder in the master branch.
 
 And then configure Github Pages in *Settings* of the repo.
+
+
+### Pull request
+
+#### Create and push new branch 
+
+
+```shell script
+# Checkout the master branch - you want your new branch to come from master
+git checkout master
+
+# Create a new branch named newfeature (give your branch its own simple informative name)
+# Switch to your new branch
+git checkout  -b newfeature
+
+# modify code
+
+git add .
+git commit -m "new feature"
+
+# Pull first, then rebase
+git checkout master
+git pull origin master
+git checkout newfeature
+git rebase master # or, git merge master
+
+# push 
+git push origin newfeature
+```
+
+
+

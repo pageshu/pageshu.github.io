@@ -462,6 +462,8 @@ git checkout master
 # Switch to your new branch
 git checkout  -b newfeature
 
+# modify code
+
 git add .
 git commit -m "new feature"
 
