@@ -627,13 +627,6 @@ and merge them as a single unit. It is clear from your history when you do featu
 Those are scenarios where Conflicts could happen:
 
 
-```shell script
-git merge
-```
-
-![](readme_img/gitmerge.gif)
-
-![](readme_img/gitmerge2.gif)
 
 
 ```shell script
@@ -643,6 +636,18 @@ git rebase
 ![](readme_img/git_rebase.gif)
 
 ![](readme_img/gitrebase2.gif)
+
+
+
+```shell script
+git merge
+```
+
+![](readme_img/gitmerge.gif)
+
+![](readme_img/gitmerge2.gif)
+
+
 
 
 ```shell script
