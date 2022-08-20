@@ -198,5 +198,12 @@ git rebase master # or, git merge master
 git push origin newfeature
 ```
 
+## 做一个 github pages 就是一上午的事儿（或者三十分钟）
 
+https://medium.com/@andrey.dobra/how-to-create-an-online-resume-powered-by-jekyll-and-github-pages-3db3d03ce694
 
+模板：https://bootstrapmade.com/bootstrap-personal-templates/
+
+稍稍复杂：https://jekyllthemes.io/theme/resume-template
+
+https://master--hugothemes.netlify.app/tags/resume/
