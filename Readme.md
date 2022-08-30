@@ -1,20 +1,20 @@
 # Building A Static Website With Go Hugo
 
-## Why this mini-series tutorial?
+## Why this tutorial?
 ![](readme_img/why.png)
 
-The main goal of this mini-series is **NOT** to teach you Web Technology, but to 
+The main goal of this tutorial is **NOT** to teach you Web Technology, but to 
 walk through the main steps for 
 building a static website, and to learn to use, in the meanwhile:
-- Git
-- GitHub (pull request, github actions)
+- Git (add, commit, push, pull, checkout, rebase, merge, conflict resolving)
+- GitHub (GitHub pull request, GitHub actions)
 - [optional] Cloud Virtual Machine
 - [optional] Some very useful linux commands (e.g. nohup, scp, etc.)
 - [optional] Docker
 - [optional] Nginx, live server, CI/CD
 
 :rocket: :rocket: *When used as teaching material for courses (e.g. Machine Learning), 
-the main focus will bu put on the ***Git*** tool and ***GitHub*** platform.*
+the main focus will be put on the ***Git*** tool and ***GitHub*** platform.*
 
 Those skills are quite versatile and could be very useful when you create your website 
 with other static web generators (e.g. Hexo, Jekyll etc.), dynamic web frameworks, 
@@ -22,8 +22,6 @@ as well as in many DevOps scenarios.
 
 :rocket: :rocket: ***Notice: If you just want to build your own personal website, 
 you need only to watch videos 1-5, whose total length is ~30 minutes.***
-
-
 
 ## Code
 ![](readme_img/programming.png)
@@ -53,14 +51,12 @@ you need only to watch videos 1-5, whose total length is ~30 minutes.***
   - [Video 4 - Localhost Pages](https://www.bilibili.com/video/BV1Wv4y1A75F/)
 - GitHub Pages
   - [Video 5 - Github Pages](https://www.bilibili.com/video/BV1V5411R7EM/)
-- Code Collaboration with GitHub Pull Request
-  - [Video 6 - GitHub Pull Request - Within One Team]()
-  - [Video 7 - GitHub Pull Request - Across Teams]()
-  - [Video 8 - GitHub Pull Request - Resolving Merge Conflict]()
-- [Bonus] Bootstrap Pages
-  - [[Bonus] Video 9 - Bootstrap Pages]()
+- Code Collaboration with GitHub Pull Request (independent mini-series videos made by Lunde Chen and Hudie Sun)
+  - [Video 6 - GitHub Pull Request - Within One Team](https://www.bilibili.com/video/BV1ke4y1o7Ki/)
+  - [Video 7 - GitHub Pull Request - Cross Team](https://www.bilibili.com/video/BV1mN4y1F7py/)
+  - [Video 8 - GitHub Pull Request - Resolving Merge Conflict](https://www.bilibili.com/video/BV1vg411r7g5/)
 - [optional] Cloud VM Pages 
-  - [[optional] Video 10 - Cloud VM Pages](https://www.bilibili.com/video/BV1PY4y1t746/)
+  - [[optional] Video 9 - Cloud VM Pages](https://www.bilibili.com/video/BV1PY4y1t746/)
 
 
 ## Setup 
@@ -406,9 +402,6 @@ https://medium.com/geekculture/tech-for-pms-github-branches-and-pull-requests-77
 
 https://rockefelleruniversity.github.io/RU_reproducibleR/presentations/slides/github.html#7
 
-
-
-
 ### If you are on Solo mode
 
 ![](readme_img/gitstage.png)
@@ -425,10 +418,7 @@ https://rockefelleruniversity.github.io/RU_reproducibleR/presentations/slides/gi
 
 ### VS Code extension
 
-Install *Git History* extension on your VS Code.
-
-Other alternatives: *Git Graph* extension.
-
+- GitLens
 
 ### General Principle
 
@@ -490,15 +480,6 @@ Reference:
 Whether you're trying to give back to the open source community 
 or collaborating on your own projects, 
 knowing how to properly fork and generate pull requests is essential. 
-
-
-
-#### Simple Mode
-
-Fork -> Code Modification -> Push -> Pull Request
-
-
-#### A better but more sophisticated procedure 
 
 The following subsections depict the fairly "standard" (better but more complicated) procedure for creating a fork, 
 doing your work, issuing a pull request, 
