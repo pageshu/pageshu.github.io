@@ -724,3 +724,5 @@ We use [**FastAPI**](https://testdriven.io/blog/moving-from-flask-to-fastapi) an
 ## Conclusion
 ![](readme_img/conclusion.png)
 
+You have now gone through some very useful git/GitHub basics. Do consider using those tools
+for your code projects.
