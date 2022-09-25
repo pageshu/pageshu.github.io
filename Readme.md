@@ -402,6 +402,10 @@ https://medium.com/geekculture/tech-for-pms-github-branches-and-pull-requests-77
 
 https://rockefelleruniversity.github.io/RU_reproducibleR/presentations/slides/github.html#7
 
+:rocket: :rocket: :rocket: To be an Git/GitHub expert takes much time. For example, before making videos with me, Ms. Sun Hudie spent days learning online and taking notes (her notes: [分支创建+pr-by孙胡蝶.docx](分支创建+pr-by孙胡蝶.docx)).
+
+However, in this course, we will just go through the most important  basics of Git/GitHub. Don't worry if you feel it's hard. It's hard for everyone, but it's very useful, for everyone as well.
+
 ### If you are on Solo mode
 
 ![](readme_img/gitstage.png)
@@ -412,9 +416,6 @@ https://rockefelleruniversity.github.io/RU_reproducibleR/presentations/slides/gi
 ![](readme_img/pullrequestapprove.gif)
 
 
-### A very good tutorial by Ms. Sun Hudie
-
-:rocket: :rocket: :rocket:  A very good tutorial :point_right: :[分支创建+pr-by孙胡蝶.docx](分支创建+pr-by孙胡蝶.docx).
 
 ### VS Code extension
 
