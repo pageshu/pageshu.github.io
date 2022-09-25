@@ -386,22 +386,6 @@ and in few minutes the changes will appear on your GitHub page URL.
 
 ## Code collaboration via GitHub Pull Request
 
-https://www.slideshare.net/CallonCampbell/git-pull-requests
-
-http://gish.github.io/pull-request-presentation/#/2
-
-http://gish.github.io/pull-request-presentation/#/3
-
-https://blog.codeanalogies.com/2019/05/26/pull-requests-explained/
-
-https://slideplayer.com/slide/17813784/
-
-http://comet.lehman.cuny.edu/sfulakeza/su19/tpp/slides/Day%201/Git%20and%20Github%20slides.pdf
-
-https://medium.com/geekculture/tech-for-pms-github-branches-and-pull-requests-77b1d341b09a
-
-https://rockefelleruniversity.github.io/RU_reproducibleR/presentations/slides/github.html#7
-
 :rocket: :rocket: :rocket: To be an Git/GitHub expert takes much time. For example, before making videos with me, Ms. Sun Hudie spent days learning online and taking notes (her notes: [分支创建+pr-by孙胡蝶.docx](分支创建+pr-by孙胡蝶.docx)).
 
 However, in this course, we will just go through the most important  basics of Git/GitHub. Don't worry if you feel it's hard. It's hard for everyone, but it's very useful, for everyone as well.
@@ -727,3 +711,21 @@ We use [**FastAPI**](https://testdriven.io/blog/moving-from-flask-to-fastapi) an
 
 You have now gone through some very useful git/GitHub basics. Do consider using those tools
 for your code projects.
+
+## Acknowledgements
+
+https://www.slideshare.net/CallonCampbell/git-pull-requests
+
+http://gish.github.io/pull-request-presentation/#/2
+
+http://gish.github.io/pull-request-presentation/#/3
+
+https://blog.codeanalogies.com/2019/05/26/pull-requests-explained/
+
+https://slideplayer.com/slide/17813784/
+
+http://comet.lehman.cuny.edu/sfulakeza/su19/tpp/slides/Day%201/Git%20and%20Github%20slides.pdf
+
+https://medium.com/geekculture/tech-for-pms-github-branches-and-pull-requests-77b1d341b09a
+
+https://rockefelleruniversity.github.io/RU_reproducibleR/presentations/slides/github.html#7
